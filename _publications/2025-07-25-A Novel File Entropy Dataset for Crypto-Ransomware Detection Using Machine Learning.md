@@ -1,7 +1,7 @@
 ---
 title: "A Novel File Entropy Dataset for Crypto-Ransomware Detection Using Machine Learning"
 collection: publications
-category: conferences
+category: book-chapters
 permalink: /publication/A-Novel-File-Entropy-Dataset
 excerpt: ''
 date: 2025-07-25
