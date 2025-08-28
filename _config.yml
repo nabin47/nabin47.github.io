@@ -9,13 +9,13 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Your Name / Site Title"
+title                    : "Jubair Ahmed Nabin"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+name                     : &name "Jubair Ahmed Nabin"
+description              : &description "I am a Lecturer in Computer Science with research interests in machine learning, cybersecurity, and data-driven intelligent systems. My work focuses on applying deep learning techniques such as CNNs, LSTMs, and transformers to domains including network intrusion detection, anomaly detection, and multimodal sentiment analysis. I have published and presented my research in leading IEEE conferences and continue to explore federated learning approaches for secure and scalable AI applications. Alongside my research, I have experience teaching undergraduate courses, including Database Management, Data Structures, Algorithms, System Analysis and Design, and Engineering Ethics. I am passionate about advancing my academic career through a PhD, intending to contribute to robust, secure, and interpretable AI systems."
+url                      : "https://nabin47.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "nabin47/nabin47.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -23,37 +23,37 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Jubair Ahmed Nabin"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Lecturer in Computer Science | Research in Machine Learning, Cybersecurity, and Federated AI | Aspiring PhD Candidate"
+  location         : "Dhaka, Bangladesh"
+  employer         : "International University of Business Agriculture and Technology"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "janabin.research@gmail.com" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=Rnh7FmQAAAAJ&hl=en&authuser=6"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0002-4648-9860"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
+  pubmed           : 
+  researchgate     : "https://www.researchgate.net/profile/Jubair-Nabin"
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=59940376800"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
+  github           : "nabin47"
+  kaggle           : "ahmednabin47"  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          :  # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -70,7 +70,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : "ahmednabin"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
@@ -80,12 +80,16 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
+  # books:
+  #   title: 'Books'
+  # manuscripts:
+  #   title: 'Journal Articles'    
   conferences:
-    title: 'Conference Papers'
+    title: 'Federated Machine Learning for Cardiovascular Risk Assessment: A Decentralized XGBoost Approach'
+    title: 'A Novel Temporal-Aware Adaptive Feature Selection Strategy for Network Intrusion Detection Systems'
+    title: 'Two-Stage Vision Transformer-Based Framework for Anomaly Detection and Classification in Surveillance Videos'
+    title: 'Federated Deep Learning for Cybersecurity and Intrusion Detection in Decentralized Networks'
+    title: 'A Novel File Entropy Dataset for Crypto-Ransomware Detection Using Machine Learning'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
