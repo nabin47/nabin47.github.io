@@ -1,20 +1,9 @@
 ---
-title: "Teaching experience 1"
+title: "Lecturer"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "Department of Computer Science and Engineering, International University of Business Agriculture and Technology"
+date: 2023-08-27
+location: "4 Embankment Drive Road,Sector-10, Uttara Model Town, Dhaka-1230."
 ---
-
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
