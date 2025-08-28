@@ -1,3 +1,12 @@
+---
+permalink: /
+title: "Jubair Ahmed Nabin"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 ## About Me
 
 I am currently a **Lecturer in Computer Science** with research interests spanning **machine learning, cybersecurity, and intelligent data-driven systems**. My work focuses on applying deep learning models—such as **convolutional neural networks (CNNs), long short-term memory (LSTMs), and transformers**—to real-world security and anomaly detection problems.  
