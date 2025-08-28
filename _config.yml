@@ -80,17 +80,13 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  # books:
-  #   title: 'Books'
-  # manuscripts:
-  #   title: 'Journal Articles'    
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'    
   conferences:
-    title: 'Federated Machine Learning for Cardiovascular Risk Assessment: A Decentralized XGBoost Approach'
-    title: 'A Novel Temporal-Aware Adaptive Feature Selection Strategy for Network Intrusion Detection Systems'
-    title: 'Two-Stage Vision Transformer-Based Framework for Anomaly Detection and Classification in Surveillance Videos'
-    title: 'Federated Deep Learning for Cybersecurity and Intrusion Detection in Decentralized Networks'
-    title: 'A Novel File Entropy Dataset for Crypto-Ransomware Detection Using Machine Learning'
-
+    title: 'Conference Papers'
+    
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
