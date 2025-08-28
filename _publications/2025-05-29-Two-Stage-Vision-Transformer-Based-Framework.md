@@ -6,7 +6,7 @@ permalink: /publication/2025-05-29-Two-Stage-Vision-Transformer-Based-Framework
 excerpt: ''
 date: 2025-05-29
 venue: '2025 International Conference on Electrical, Computer and Communication Engineering (ECCE)'
-paperurl: '[http://academicpages.github.io/files/paper2.pdf](http://dx.doi.org/10.1109/ECCE64574.2025.11013374)'
+paperurl: 'http://dx.doi.org/10.1109/ECCE64574.2025.11013374'
 citation: 'Hasan, M., Nabin, J. A., Mia, N., Tamim, F. S., Mohammad, S., & Das, D. M. (2025, February). Two-Stage Vision Transformer-Based Framework for Anomaly Detection and Classification in Surveillance Videos. In 2025 International Conference on Electrical, Computer and Communication Engineering (ECCE) (pp. 1-6). IEEE.'
 ---
 
