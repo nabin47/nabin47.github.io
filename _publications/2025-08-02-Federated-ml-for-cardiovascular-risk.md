@@ -6,7 +6,7 @@ permalink: /publication/2025-08-02-Federated-ml-for-cardiovascular-risk
 excerpt: ''
 date: 2025-08-02
 venue: 'IEEE International Conference on Quantum Photonics, Artificial Intelligence, and Networking'
-paperurl: '10.1109/QPAIN66474.2025.11171956'
+paperurl: '[10.1109/QPAIN66474.2025.11171956](https://ieeexplore.ieee.org/abstract/document/11171956)'
 citation: 'M. S. Alom, S. S. Akhi, S. N. Borsha, N. Mia, F. S. Tamim, and Nabin, Jubair Ahmed, “Federated
 machine learning for cardiovascular risk assessment: A decentralized xgboost approach,” in 2025
 International Conference on Quantum Photonics, Artificial Intelligence, and Networking (QPAIN).'
