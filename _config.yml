@@ -22,7 +22,7 @@ repository               : "nabin47/nabin47.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "Profile.jpg"
   name             : "Jubair Ahmed Nabin"
   pronouns         : # example: "she/her"  
   bio              : "Lecturer in Computer Science | Research in Machine Learning, Cybersecurity, and Federated AI | Aspiring PhD Candidate"
