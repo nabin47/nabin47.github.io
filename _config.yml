@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "air" # Currently available options are "default", "air"
+site_theme               : "default" # Currently available options are "default", "air"
 title                    : "Jubair Ahmed Nabin"
 title_separator          : "-"
 name                     : &name "Jubair Ahmed Nabin"
@@ -37,18 +37,18 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=Rnh7FmQAAAAJ&hl=en&authuser=6"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/0009-0002-4648-9860"
+  orcid            : #"https://orcid.org/0009-0002-4648-9860"
   semantic         : # URL
   pubmed           : 
   researchgate     : "https://www.researchgate.net/profile/Jubair-Nabin"
-  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=59940376800"
+  scopus           : #"https://www.scopus.com/authid/detail.uri?authorId=59940376800"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
   github           : "nabin47"
-  kaggle           : "ahmednabin47"  
+  kaggle           : #"ahmednabin47"  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
