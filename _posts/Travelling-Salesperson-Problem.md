@@ -1,7 +1,7 @@
 ---
 title: 'Travelling SalesPerson HackerRank Solution with Algorithm'
 date: 2025-11-10
-permalink: /posts/2025/11/travelling-salesperson/
+permalink: /posts/2025/11/Travelling-Salesperson-Problem.md
 tags:
   - problem-solving
   - dynamic programming
