@@ -11,35 +11,44 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.Sc. in Computer Science and Engineering, Chittagong University of Engineering & Technology (CUET), Bangladesh, 2018–2023  
+* H.S.C. in Science, Chittagong College, Chattogram Board, 2015–2017  
+* S.S.C. in Science, Chittagong Collegiate School, Chattogram Board, 2010–2015  
 
-Work experience
+
+Work Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* August 2023 – Present: Lecturer  
+  * Department of Computer Science and Engineering, International University of Business Agriculture and Technology (IUBAT)  
+  * Responsibilities include: Conducting undergraduate courses, mentoring students, and engaging in research activities.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* October – November 2022: Internship Trainee  
+  * Vivasoft Limited  
+  * Worked for two weeks as part of the Industrial Attachment course requirement.  
+  * Project: [med-api](https://github.com/nabin47/med-api)
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages  
+  * Python  
+  * JavaScript  
+  * C++  
+  * HTML, CSS  
+  * SQL  
+  * LaTeX
+
+* Frameworks & Libraries   
+  * Scikit-learn, Pandas, NumPy  
+  * Matplotlib, Seaborn  
+  * SHAP, LIME
+
+* Databases  
+  * MySQL
+
+* Version Control  
+  * Git, GitHub
+
 
 Publications
 ======
@@ -47,11 +56,11 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!--Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  {% endfor %}</ul>-->
   
 Teaching
 ======
@@ -59,6 +68,6 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+<!--Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams-->
