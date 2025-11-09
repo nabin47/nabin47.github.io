@@ -1,12 +1,15 @@
 ---
 title: "Lecturer"
 collection: teaching
-type: "Undergraduate course"
+type: "Undergraduate teaching"
 permalink: /teaching/teaching-iubat
 venue: "Department of Computer Science and Engineering, International University of Business Agriculture and Technology"
 date: 2023-08-27
 location: "4 Embankment Drive Road,Sector-10, Uttara Model Town, Dhaka-1230."
 ---
+### Lecturer — International University of Business Agriculture and Technology
+**August 2023 – Present | Dhaka**
+
 I have been teaching in the Department of CSE, IUBAT for more than 2 years. It has been a privilege to teach and learn alongside my brilliant students. So far, I have taught the following courses that are listed below.  
 
 | **Course Code** | **Course Title** | **Description** | **Course Syllabus** |
