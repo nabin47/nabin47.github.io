@@ -1,16 +1,12 @@
 ---
-title: 'Blog Post number 1'
-date: 2012-08-14
-permalink: /posts/2012/08/blog-post-1/
+title: 'Travelling SalesPerson HackerRank Solution with Algorithm'
+date: 2025-11-10
+permalink: /posts/2025/11/travelling-salesperson/
 tags:
-  - cool posts
-  - category1
-  - category2
+  - problem-solving
+  - dynamic programming
 ---
 
-# Travelling SalesPerson HackerRank Solution with Algorithm
-
-**by Jubair Ahmed Nabin**  
 
 Travelling salesperson is a classic graph problem. Here, the cost of moving from city `i` to city `j` is given. The task is to find a path, starting from the city `0` encompassing all the cities at most once whose cost is the smallest.
 
@@ -113,4 +109,5 @@ int main() {
   return 0;
 }
 ```
+**Problem link:** [Travelling Salesman - Target Samsung 13 Nov'19](https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/travelling-salesman-4)
 ------
