@@ -3,6 +3,7 @@ layout: post
 title:  "Travelling SalesPerson HackerRank Solution with Algorithm"
 date:   2025-11-10
 categories: problem-solving
+permalink: /posts/2025/11/Travelling-Salesperson-Problem/
 tags:
   - algorithm
   - dynamic-programming
