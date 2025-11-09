@@ -1,8 +1,8 @@
 ---
 title: "Internship"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/internship-vivasoft.md
+type: "Internship"
+permalink: /teaching/internship-vivasoft
 venue: "Vivasoft Limited"
 date: 2022-10-15
 location: "Dhaka, Bangladesh"
