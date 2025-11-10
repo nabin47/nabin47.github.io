@@ -1,14 +1,15 @@
 ---
-layout: post
-title:  "Travelling SalesPerson HackerRank Solution with Algorithm"
-date:   2025-11-10
-categories: problem-solving
-permalink: /posts/2025/11/Travelling-Salesperson-Problem/
-tags:
-  - algorithm
-  - dynamic-programming
-  - hackerrank
+title: "Travelling SalesPerson HackerRank Solution with Algorithm"
+date: 2025-11-10
+categories: [problem-solving, dynamic-programming]
+tags: [algorithms, dynamic-programming, hackerrank]
+author: "Jubair Ahmed Nabin"
+excerpt: "A solution of the travelling salesperson problem"
+layout: single
+toc: true
+toc_sticky: true
 ---
+
 
 
 Travelling salesperson is a classic graph problem. Here, the cost of moving from city `i` to city `j` is given. The task is to find a path, starting from the city `0` encompassing all the cities at most once whose cost is the smallest.
@@ -43,7 +44,9 @@ Sample Output
 
 Input Visualization
 
-![Input visualization through graph](/assets/images/input-visualization-travelling-salesman.png)
+<figure class="align-center">
+  <img src="/assets/images/input-visualization-travelling-salesman.png" alt="Input visualization through graph">
+</figure>
 
 ## Algorithm
 
