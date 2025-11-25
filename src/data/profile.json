@@ -1,0 +1,15 @@
+{
+    "name": "Jubair Ahmed Nabin",
+    "image": "/profile.jpg",
+    "title": "Lecturer in Computer Science | Research in Machine Learning, Cybersecurity, and Federated AI | Aspiring PhD Candidate",
+    "location": "Dhaka, Bangladesh",
+    "institution": "International University of Business Agriculture and Technology",
+    "email": "janabin.research@gmail.com",
+    "bio": "I am a Lecturer in the Department of Computer Science with research interests in machine learning, cybersecurity, and intelligent data-driven systems. My work applies deep learning models such as CNNs, LSTMs, and transformers to real-world security and anomaly detection problems, including federated learning, network intrusion detection, and video anomaly analysis. I have published in IEEE conferences and continue to explore the integration of federated AI and cybersecurity to develop secure and trustworthy systems. I am currently seeking PhD opportunities in Computer Science to advance research in secure and responsible artificial intelligence.",
+    "social": {
+        "googleScholar": "https://scholar.google.com/citations?user=Rnh7FmQAAAAJ&hl=en&authuser=6",
+        "researchGate": "https://www.researchgate.net/profile/Jubair-Nabin",
+        "github": "https://github.com/nabin47",
+        "twitter": "https://twitter.com/ahmednabin"
+    }
+}
