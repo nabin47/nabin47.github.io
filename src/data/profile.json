@@ -11,5 +11,27 @@
         "researchGate": "https://www.researchgate.net/profile/Jubair-Nabin",
         "github": "https://github.com/nabin47",
         "twitter": "https://twitter.com/ahmednabin"
-    }
+    },
+    "researchInterests": [
+        {
+            "category": "Cybersecurity",
+            "description": "I develop secure and resilient systems focused on protecting digital infrastructures, with emphasis on modern network-based threats and defense mechanisms."
+        },
+        {
+            "category": "Network Intrusion Detection Systems",
+            "description": "I design ML- and DL-based intrusion detection models, study adversarial machine learning to strengthen IDS against evasion attacks, and apply explainable AI (XAI) to improve transparency and trust in detection decisions."
+        },
+        {
+            "category": "Generative AI for Cybersecurity",
+            "description": "I explore generative modeling for cyber defense, including synthetic data creation, attack simulation, and adversarial scenario generation to enhance training and evaluation of security systems."
+        },
+        {
+            "category": "Machine Learning & Deep Learning",
+            "description": "I develop and optimize learning algorithms and neural architectures to solve complex data-driven challenges across security and related domains."
+        },
+        {
+            "category": "Federated Learning",
+            "description": "I investigate privacy-preserving distributed learning approaches that enable collaborative model training across decentralized data sources, with applications in secure analytics, intrusion detection, and trustworthy AI."
+        }
+    ]
 }

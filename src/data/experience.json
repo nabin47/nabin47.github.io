@@ -1,16 +1,8 @@
 [
     {
-        "role": "Lecturer",
-        "institution": "International University of Business Agriculture and Technology",
-        "location": "Dhaka",
-        "period": "August 2023 – Present",
-        "description": "Undergraduate teaching, Department of Computer Science and Engineering."
+        "content": "lecturer.md"
     },
     {
-        "role": "Internship Trainee",
-        "institution": "Vivasoft Limited",
-        "location": "Dhaka",
-        "period": "October – November 2022",
-        "description": "Internship."
+        "content": "internship.md"
     }
 ]

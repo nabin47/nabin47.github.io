@@ -1,27 +1,32 @@
 [
     {
         "title": "A Novel File Entropy Dataset for Crypto-Ransomware Detection Using Machine Learning",
-        "link": "https://nabin47.github.io/publication/A-Novel-File-Entropy-Dataset",
-        "year": "2025"
+        "slug": "novel-file-entropy-dataset",
+        "year": "2025",
+        "content": "novel-file-entropy-dataset.md"
     },
     {
         "title": "Federated Machine Learning for Cardiovascular Risk Assessment: A Decentralized XGBoost Approach",
-        "link": "https://nabin47.github.io/publication/2025-08-02-Federated-ml-for-cardiovascular-risk",
-        "year": "2025"
+        "slug": "federated-ml-cardiovascular",
+        "year": "2025",
+        "content": "federated-ml-cardiovascular.md"
     },
     {
         "title": "A Novel Temporal-Aware Adaptive Feature Selection Strategy for Network Intrusion Detection Systems",
-        "link": "https://nabin47.github.io/publication/2025-07-17-TAFS-Feature-Selection-for-Intrusion",
-        "year": "2025"
+        "slug": "temporal-aware-feature-selection",
+        "year": "2025",
+        "content": "temporal-aware-feature-selection.md"
     },
     {
         "title": "Two-Stage Vision Transformer-Based Framework for Anomaly Detection and Classification in Surveillance Videos",
-        "link": "https://nabin47.github.io/publication/2025-05-29-Two-Stage-Vision-Transformer-Based-Framework",
-        "year": "2025"
+        "slug": "vision-transformer-anomaly-detection",
+        "year": "2025",
+        "content": "vision-transformer-anomaly-detection.md"
     },
     {
         "title": "Federated Deep Learning for Cybersecurity and Intrusion Detection in Decentralized Networks",
-        "link": "https://nabin47.github.io/publication/2015-06-02-Federated-DL-for-Cybersecurity-and-Intrusion",
-        "year": "2015"
+        "slug": "federated-dl-cybersecurity",
+        "year": "2015",
+        "content": "federated-dl-cybersecurity.md"
     }
 ]
