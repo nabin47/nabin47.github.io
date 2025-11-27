@@ -29,7 +29,7 @@ export default function Layout() {
                     </div>
 
                     <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
-                        <li><NavLink to="/" onClick={closeMenu} className={({ isActive }) => isActive ? 'active' : ''}>Home</NavLink></li>
+
                         <li><NavLink to="/publications" onClick={closeMenu} className={({ isActive }) => isActive ? 'active' : ''}>Publications</NavLink></li>
                         <li><NavLink to="/experience" onClick={closeMenu} className={({ isActive }) => isActive ? 'active' : ''}>Teaching & Experience</NavLink></li>
                         <li><NavLink to="/blog" onClick={closeMenu} className={({ isActive }) => isActive ? 'active' : ''}>Blog</NavLink></li>
