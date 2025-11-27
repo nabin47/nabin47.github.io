@@ -14,34 +14,27 @@ export default function Layout() {
         <div className="container">
             <header>
                 <nav>
-                    <Link to="/" className="nav-brand" onClick={closeMenu}>
-                        {profileData.name}
-                    </Link>
-
-                    <div className="desktop-nav">
-                        <ul className="nav-links">
-                            <li><NavLink to="/publications" className={({ isActive }) => isActive ? 'active' : ''}>Publications</NavLink></li>
-                            <li><NavLink to="/experience" className={({ isActive }) => isActive ? 'active' : ''}>Teaching & Experience</NavLink></li>
-                            <li><NavLink to="/blog" className={({ isActive }) => isActive ? 'active' : ''}>Blog</NavLink></li>
-                        </ul>
-                        <ThemeToggle />
+                    <div className="nav-header">
+                        <div className="mobile-menu-btn">
+                            <button onClick={toggleMenu} aria-label="Toggle Menu" className="btn-icon">
+                                {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+                            </button>
+                        </div>
+                        <Link to="/" className="nav-brand" onClick={closeMenu}>
+                            {profileData.name}
+                        </Link>
+                        <div className="theme-toggle-wrapper">
+                            <ThemeToggle />
+                        </div>
                     </div>
 
-                    <div className="mobile-nav-controls">
-                        <ThemeToggle />
-                        <button onClick={toggleMenu} aria-label="Toggle Menu" className="btn-icon mobile-menu-btn">
-                            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-                        </button>
-                    </div>
-                </nav>
+                    <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
 
-                <div className={`mobile-menu ${isMenuOpen ? 'open' : ''}`}>
-                    <ul className="mobile-nav-links">
                         <li><NavLink to="/publications" onClick={closeMenu} className={({ isActive }) => isActive ? 'active' : ''}>Publications</NavLink></li>
                         <li><NavLink to="/experience" onClick={closeMenu} className={({ isActive }) => isActive ? 'active' : ''}>Teaching & Experience</NavLink></li>
                         <li><NavLink to="/blog" onClick={closeMenu} className={({ isActive }) => isActive ? 'active' : ''}>Blog</NavLink></li>
                     </ul>
-                </div>
+                </nav>
             </header>
 
             <main>
