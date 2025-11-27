@@ -1,14 +1,14 @@
 [
     {
-        "title": "Welcome to My New Blog",
-        "slug": "welcome",
-        "date": "November 26, 2025",
-        "summary": "This is a sample post to demonstrate the new blog system."
-    },
-    {
         "title": "Travelling SalesPerson HackerRank Solution",
         "slug": "tsp-solution",
         "date": "November 10, 2025",
         "summary": "A solution of the travelling salesperson problem"
+    },
+    {
+        "title": "Fuse Filesystem Installation Process",
+        "slug": "fuse-filesystem-installation-process",
+        "date": "November 27, 2025",
+        "summary": "A step-by-step guide to installing a fuse filesystem"
     }
 ]
