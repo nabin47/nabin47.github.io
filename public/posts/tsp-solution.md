@@ -30,9 +30,7 @@ Sample Output
 
 Input Visualization
 
-<figure class="align-center">
-  <img src="/assets/input-visualization-travelling-salesman.png" alt="Input visualization through graph">
-</figure>
+![Input visualization through graph](/assets/input-visualization-travelling-salesman.png)
 
 ## Algorithm
 
