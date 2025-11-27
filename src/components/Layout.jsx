@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink, Outlet } from 'react-router-dom';
+import { NavLink, Outlet, Link } from 'react-router-dom';
 import { Mail, BookOpen, Github, Twitter, ExternalLink, Menu, X } from 'lucide-react';
 import profileData from '../data/profile.json';
 import ThemeToggle from './ThemeToggle';
@@ -20,6 +20,9 @@ export default function Layout() {
                                 {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
                             </button>
                         </div>
+                        <Link to="/" className="nav-brand" onClick={closeMenu}>
+                            {profileData.name}
+                        </Link>
                         <div className="theme-toggle-wrapper">
                             <ThemeToggle />
                         </div>
