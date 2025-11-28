@@ -51,7 +51,21 @@ export function PublicationView() {
 
                 {metadata?.paperurl && (
                     <div style={{ marginBottom: '1.5rem' }}>
-                        <a href={metadata.paperurl} target="_blank" rel="noopener noreferrer" className="btn">Download Paper</a>
+                        {(() => {
+                            const markdownLinkMatch = metadata.paperurl.match(/\[(.*?)\]\((.*?)\)/);
+                            if (markdownLinkMatch) {
+                                return (
+                                    <a href={markdownLinkMatch[2]} target="_blank" rel="noopener noreferrer" className="btn">
+                                        Paper: {markdownLinkMatch[1]}
+                                    </a>
+                                );
+                            }
+                            return (
+                                <a href={metadata.paperurl} target="_blank" rel="noopener noreferrer" className="btn">
+                                    Download Paper
+                                </a>
+                            );
+                        })()}
                     </div>
                 )}
 
