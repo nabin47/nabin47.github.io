@@ -2,7 +2,6 @@
 title: "Federated Machine Learning for Cardiovascular Risk Assessment: A Decentralized XGBoost Approach"
 collection: publications
 category: conferences
-permalink: /publication/2025-08-02-Federated-ml-for-cardiovascular-risk
 excerpt: ''
 date: 2025-08-02
 venue: 'IEEE International Conference on Quantum Photonics, Artificial Intelligence, and Networking'

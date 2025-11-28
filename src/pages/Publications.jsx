@@ -93,27 +93,21 @@ export function PublicationView() {
                         {metadata?.date ? new Date(metadata.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) : publication.year}
                     </span>
                     {metadata?.venue && <span>| {metadata.venue}</span>}
-                </div>
-
-                {metadata?.paperurl && (
-                    <div style={{ marginBottom: '2rem' }}>
-                        {(() => {
-                            const markdownLinkMatch = metadata.paperurl.match(/\[(.*?)\]\((.*?)\)/);
-                            if (markdownLinkMatch) {
+                    {metadata?.paperurl && (
+                        <>
+                            <span>|</span>
+                            {(() => {
+                                const markdownLinkMatch = metadata.paperurl.match(/\[(.*?)\]\((.*?)\)/);
+                                const url = markdownLinkMatch ? markdownLinkMatch[2] : metadata.paperurl;
                                 return (
-                                    <a href={markdownLinkMatch[2]} target="_blank" rel="noopener noreferrer" className="btn">
-                                        Paper: {markdownLinkMatch[1]}
+                                    <a href={url} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--link-color)', fontWeight: '500' }}>
+                                        DOI
                                     </a>
                                 );
-                            }
-                            return (
-                                <a href={metadata.paperurl} target="_blank" rel="noopener noreferrer" className="btn">
-                                    Download Paper
-                                </a>
-                            );
-                        })()}
-                    </div>
-                )}
+                            })()}
+                        </>
+                    )}
+                </div>
 
                 <div style={{ marginBottom: '3rem' }}>
                     <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
@@ -147,17 +141,44 @@ export function PublicationView() {
 }
 
 export default function Publications() {
+    // Group publications by category
+    const groupedPublications = publicationsData.reduce((acc, pub) => {
+        const category = pub.category || 'Other';
+        if (!acc[category]) {
+            acc[category] = [];
+        }
+        acc[category].push(pub);
+        return acc;
+    }, {});
+
+    // Sort categories if needed (optional, here just using Object.entries order which is usually insertion order)
+    // You might want to define a specific order like ['conferences', 'journals', 'book-chapters']
+
     return (
         <div className="section animate-fade-in">
             <h2>Publications</h2>
-            {publicationsData.map((pub, index) => (
-                <div key={index} className="card">
-                    <div className="card-title">
-                        <Link to={`/publications/${pub.slug}`}>
-                            {pub.title}
-                        </Link>
-                    </div>
-                    <div className="card-meta">{pub.year}</div>
+
+            {Object.entries(groupedPublications).map(([category, pubs]) => (
+                <div key={category} style={{ marginBottom: '3rem' }}>
+                    <h3 style={{
+                        textTransform: 'capitalize',
+                        borderBottom: '1px solid var(--border-color)',
+                        paddingBottom: '0.5rem',
+                        marginBottom: '1.5rem',
+                        color: 'var(--link-color)'
+                    }}>
+                        {category.replace(/-/g, ' ')}
+                    </h3>
+                    {pubs.map((pub, index) => (
+                        <div key={index} className="card">
+                            <div className="card-title">
+                                <Link to={`/publications/${pub.slug}`}>
+                                    {pub.title}
+                                </Link>
+                            </div>
+                            <div className="card-meta">{pub.year}</div>
+                        </div>
+                    ))}
                 </div>
             ))}
         </div>

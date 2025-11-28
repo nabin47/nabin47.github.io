@@ -3,30 +3,35 @@
         "title": "A Novel File Entropy Dataset for Crypto-Ransomware Detection Using Machine Learning",
         "slug": "novel-file-entropy-dataset",
         "year": "2025",
-        "content": "novel-file-entropy-dataset.md"
+        "content": "novel-file-entropy-dataset.md",
+        "category": "book-chapters"
     },
     {
         "title": "Federated Machine Learning for Cardiovascular Risk Assessment: A Decentralized XGBoost Approach",
         "slug": "federated-ml-cardiovascular",
         "year": "2025",
-        "content": "federated-ml-cardiovascular.md"
+        "content": "federated-ml-cardiovascular.md",
+        "category": "conferences"
     },
     {
         "title": "A Novel Temporal-Aware Adaptive Feature Selection Strategy for Network Intrusion Detection Systems",
         "slug": "temporal-aware-feature-selection",
         "year": "2025",
-        "content": "temporal-aware-feature-selection.md"
+        "content": "temporal-aware-feature-selection.md",
+        "category": "conferences"
     },
     {
         "title": "Two-Stage Vision Transformer-Based Framework for Anomaly Detection and Classification in Surveillance Videos",
         "slug": "vision-transformer-anomaly-detection",
         "year": "2025",
-        "content": "vision-transformer-anomaly-detection.md"
+        "content": "vision-transformer-anomaly-detection.md",
+        "category": "conferences"
     },
     {
         "title": "Federated Deep Learning for Cybersecurity and Intrusion Detection in Decentralized Networks",
         "slug": "federated-dl-cybersecurity",
         "year": "2015",
-        "content": "federated-dl-cybersecurity.md"
+        "content": "federated-dl-cybersecurity.md",
+        "category": "conferences"
     }
 ]

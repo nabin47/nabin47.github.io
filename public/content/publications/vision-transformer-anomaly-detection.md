@@ -4,10 +4,9 @@ collection: publications
 category: conferences
 excerpt: ''
 date: 2025-05-29
-venue: 'CVPR Workshop'
-paperurl: 'https://nabin47.github.io/publication/2025-05-29-Two-Stage-Vision-Transformer-Based-Framework'
-citation: 'Ahmed Nabin, J. et al. (2025). Two-Stage Vision Transformer-Based Framework for Anomaly Detection. In CVPRW.'
+venue: 'International Conference on Electrical, Computer and Communication Engineering (ECCE)'
+paperurl: 'http://dx.doi.org/10.1109/ECCE64574.2025.11013374'
+citation: 'Hasan, M., Nabin, J. A., Mia, N., Tamim, F. S., Mohammad, S., & Das, D. M. (2025, February). Two-Stage Vision Transformer-Based Framework for Anomaly Detection and Classification in Surveillance Videos. In 2025 International Conference on Electrical, Computer and Communication Engineering (ECCE) (pp. 1-6). IEEE.'
 ---
-[Abstract placeholder]
 
-This paper presents a two-stage framework using Vision Transformers for detecting and classifying anomalies in surveillance videos.
+Anomaly detection and classification play a vital role in maintaining public safety and security. An automated system for anomaly detection and classification can reduce human leverage, cost, and time. We propose a two-stage classifier pipelined within a single model for anomaly detection and classification. The first stage of the two-stage classifier is a Convolutional Neural Network(CNN) based binary classifier that determines whether an event is anomalous or normal. Based on the output of the first classifier, if the event is found anomalous, then it goes to the second stage of our single-pipelined model. The second stage classifier is a Vision Transformer (ViT) based architecture that further classifies an anomalous event into specific anomaly categories. This research utilized the UCF Crime dataset. Being quite large, it requires a significant amount of computational resources and time for processing. We also proposed a keyframe extraction algorithm to reduce the computational cost and time. The proposed keyframe extraction algorithm identifies and selects only relevant frames from videos and discards the redundant and irrelevant frames. The proposed methodology combines Convolution Neural Network (CNN) and Vision Transformer (ViT) for spatial-temporal feature extraction from a complex scenario and classify them. The proposed model achieves 98% accuracy for binary classification modules and 95% accuracy for multi-class classification. Furthermore, the proposed keyframe extraction algorithm significantly reduces the processing time and computational resources. For each videos, it requires only 20ms processing time. The outcome of the proposed model suggests that it can outperform traditional methods for anomaly detection and classification. However, a highly correlated and vast amount of data creates problems like overfitting and increases the complexity of the model.

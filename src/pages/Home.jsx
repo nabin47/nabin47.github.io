@@ -53,9 +53,9 @@ export default function Home() {
             {publicationsData.slice(0, 3).map((pub, index) => (
                 <div key={index} className="card">
                     <div className="card-title">
-                        <a href={pub.link} target="_blank" rel="noopener noreferrer">
+                        <Link to={`/publications/${pub.slug}`}>
                             {pub.title}
-                        </a>
+                        </Link>
                     </div>
                     <div className="card-meta">{pub.year}</div>
                 </div>
