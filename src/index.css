@@ -393,7 +393,7 @@ a:hover {
   }
 
   .theme-toggle-wrapper {
-    margin-left: auto;
+    margin-left: 0;
     order: 2;
     /* Ensure it stays on the right */
   }
@@ -402,6 +402,7 @@ a:hover {
     display: flex !important;
     /* Override inline style if any */
     gap: 1.5rem;
+    margin-left: auto;
   }
 }
 
