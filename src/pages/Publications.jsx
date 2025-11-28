@@ -4,8 +4,7 @@ import remarkGfm from 'remark-gfm';
 import { Link, useParams } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import publicationsData from '../data/publications.json';
-
-import matter from 'gray-matter';
+import yaml from 'js-yaml';
 
 export function PublicationView() {
     const { slug } = useParams();
@@ -31,9 +30,19 @@ export function PublicationView() {
                         throw new Error('Received HTML instead of Markdown. File might be missing.');
                     }
                     try {
-                        const { data, content } = matter(text);
-                        setMetadata(data);
-                        setContent(content);
+                        // Manual frontmatter parsing to avoid Buffer issue with gray-matter
+                        const matches = text.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+                        if (matches) {
+                            const frontmatter = matches[1];
+                            const body = matches[2];
+                            const data = yaml.load(frontmatter);
+                            setMetadata(data);
+                            setContent(body);
+                        } else {
+                            // Fallback if no frontmatter found or malformed
+                            setContent(text);
+                            setMetadata({});
+                        }
                     } catch (e) {
                         throw new Error(`Frontmatter parsing error: ${e.message}`);
                     }
