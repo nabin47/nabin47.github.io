@@ -13,6 +13,7 @@ export function PublicationView() {
     const [metadata, setMetadata] = useState(null);
     const [publication, setPublication] = useState(null);
     const [copied, setCopied] = useState(false);
+    const [error, setError] = useState(null);
 
     useEffect(() => {
         const pub = publicationsData.find(p => p.slug === slug);
@@ -21,21 +22,39 @@ export function PublicationView() {
         if (pub && pub.content) {
             fetch(`/content/publications/${pub.content}`)
                 .then(res => {
-                    if (!res.ok) throw new Error('Failed to fetch content');
+                    if (!res.ok) throw new Error(`Failed to fetch content: ${res.status} ${res.statusText}`);
                     return res.text();
                 })
                 .then(text => {
                     // Check if we got HTML back (SPA fallback)
                     if (text.trim().startsWith('<!DOCTYPE html>') || text.trim().startsWith('<html')) {
-                        throw new Error('Received HTML instead of Markdown');
+                        throw new Error('Received HTML instead of Markdown. File might be missing.');
                     }
-                    const { data, content } = matter(text);
-                    setMetadata(data);
-                    setContent(content);
+                    try {
+                        const { data, content } = matter(text);
+                        setMetadata(data);
+                        setContent(content);
+                    } catch (e) {
+                        throw new Error(`Frontmatter parsing error: ${e.message}`);
+                    }
                 })
-                .catch(err => console.error('Error loading publication:', err));
+                .catch(err => {
+                    console.error('Error loading publication:', err);
+                    setError(err.message);
+                });
         }
     }, [slug]);
+
+    if (error) return (
+        <div className="section">
+            <div style={{ color: 'red', padding: '1rem', border: '1px solid red', borderRadius: '8px' }}>
+                <h3>Error Loading Publication</h3>
+                <p>{error}</p>
+                <p>Path: {publication ? `/content/publications/${publication.content}` : 'Unknown'}</p>
+            </div>
+            <Link to="/publications" className="btn">Back to Publications</Link>
+        </div>
+    );
 
     const handleCopyCitation = () => {
         if (metadata?.citation) {
