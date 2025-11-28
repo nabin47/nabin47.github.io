@@ -1,0 +1,65 @@
+[
+    {
+        "title": "Markdown Editor",
+        "slug": "markdown-editor",
+        "date": "Apr 2023 - Apr 2023",
+        "content": "markdown-editor.md",
+        "skills": [
+            "Git",
+            "ReactJS",
+            "Markdown"
+        ],
+        "projectUrl": "[Show project](https://main--m-edit.netlify.app/)"
+    },
+    {
+        "title": "Med-Api",
+        "slug": "med-api",
+        "date": "Oct 2022 - Nov 2022",
+        "content": "med-api.md",
+        "skills": [
+            "Project Management",
+            "React.js",
+            "Ant Design"
+        ],
+        "projectUrl": "[Show project](https://github.com/nabin47/med-api)"
+    },
+    {
+        "title": "Housing Price Prediction Web App",
+        "slug": "housing-price-prediction",
+        "date": "Dec 2021 - Jan 2022",
+        "content": "housing-price-prediction.md",
+        "skills": [
+            "Git",
+            "Python",
+            "Streamlit",
+            "Machine Learning"
+        ],
+        "projectUrl": "[Show project](share.streamlit.io/nabin47/housing-price-prediction-app/main/housing-price-pred-app.py)"
+    },
+    {
+        "title": "CUET Central Library",
+        "slug": "cuet-central-library",
+        "date": "Aug 2021 - Sep 2021",
+        "content": "cuet-central-library.md",
+        "skills": [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "PHP",
+            "MySQL"
+        ],
+        "projectUrl": "[Show project](https://github.com/nabin47/library-website)"
+    },
+    {
+        "title": "Trial By Rewind",
+        "slug": "trial-by-rewind",
+        "date": "Sep 2020 - Oct 2020",
+        "content": "trial-by-rewind.md",
+        "skills": [
+            "Game Development",
+            "Unity",
+            "WebGL"
+        ],
+        "projectUrl": "[Show project](https://ahmednabin47.itch.io/trial-by-rewind)"
+    }
+]
