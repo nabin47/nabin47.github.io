@@ -12,6 +12,7 @@ export function PublicationView() {
     const [content, setContent] = useState('');
     const [metadata, setMetadata] = useState(null);
     const [publication, setPublication] = useState(null);
+    const [copied, setCopied] = useState(false);
 
     useEffect(() => {
         const pub = publicationsData.find(p => p.slug === slug);
@@ -19,38 +20,55 @@ export function PublicationView() {
 
         if (pub && pub.content) {
             fetch(`/content/publications/${pub.content}`)
-                .then(res => res.text())
+                .then(res => {
+                    if (!res.ok) throw new Error('Failed to fetch content');
+                    return res.text();
+                })
                 .then(text => {
+                    // Check if we got HTML back (SPA fallback)
+                    if (text.trim().startsWith('<!DOCTYPE html>') || text.trim().startsWith('<html')) {
+                        throw new Error('Received HTML instead of Markdown');
+                    }
                     const { data, content } = matter(text);
                     setMetadata(data);
                     setContent(content);
                 })
-                .catch(err => console.error(err));
+                .catch(err => console.error('Error loading publication:', err));
         }
     }, [slug]);
+
+    const handleCopyCitation = () => {
+        if (metadata?.citation) {
+            navigator.clipboard.writeText(metadata.citation);
+            setCopied(true);
+            setTimeout(() => setCopied(false), 2000);
+        }
+    };
 
     if (!publication) return <div>Loading...</div>;
 
     return (
         <div className="section animate-fade-in">
-            <Link to="/publications" className="btn" style={{ marginBottom: '2rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <Link to="/publications" className="btn" style={{ marginBottom: '2rem', display: 'flex', alignItems: 'center', gap: '0.5rem', width: 'fit-content' }}>
                 <ArrowLeft size={16} /> Back to Publications
             </Link>
             <article className="markdown-content">
                 <h1>{metadata?.title || publication.title}</h1>
-                <div className="card-meta" style={{ marginBottom: '1rem' }}>
-                    {metadata?.date ? new Date(metadata.date).getFullYear() : publication.year}
-                    {metadata?.venue && <span> | {metadata.venue}</span>}
+
+                <div className="card-meta" style={{ marginBottom: '2rem', display: 'flex', flexWrap: 'wrap', gap: '1rem', alignItems: 'center' }}>
+                    {metadata?.category && (
+                        <span style={{ textTransform: 'capitalize', backgroundColor: 'var(--card-hover-bg)', padding: '0.2rem 0.5rem', borderRadius: '4px' }}>
+                            {metadata.category}
+                        </span>
+                    )}
+                    <span>
+                        {metadata?.date ? new Date(metadata.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) : publication.year}
+                    </span>
+                    {metadata?.venue && <span>| {metadata.venue}</span>}
                 </div>
 
-                {metadata?.citation && (
-                    <div style={{ backgroundColor: 'var(--code-bg)', padding: '1rem', borderRadius: '8px', marginBottom: '1.5rem', fontSize: '0.9rem' }}>
-                        <strong>Citation:</strong> {metadata.citation}
-                    </div>
-                )}
-
                 {metadata?.paperurl && (
-                    <div style={{ marginBottom: '1.5rem' }}>
+                    <div style={{ marginBottom: '2rem' }}>
                         {(() => {
                             const markdownLinkMatch = metadata.paperurl.match(/\[(.*?)\]\((.*?)\)/);
                             if (markdownLinkMatch) {
@@ -69,7 +87,32 @@ export function PublicationView() {
                     </div>
                 )}
 
-                <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
+                <div style={{ marginBottom: '3rem' }}>
+                    <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
+                </div>
+
+                {metadata?.citation && (
+                    <div style={{ borderTop: '1px solid var(--border-color)', paddingTop: '2rem' }}>
+                        <h3>Citation</h3>
+                        <div style={{
+                            backgroundColor: 'var(--code-bg)',
+                            padding: '1.5rem',
+                            borderRadius: '8px',
+                            marginBottom: '1rem',
+                            fontSize: '0.9rem',
+                            position: 'relative'
+                        }}>
+                            {metadata.citation}
+                        </div>
+                        <button
+                            onClick={handleCopyCitation}
+                            className="btn"
+                            style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}
+                        >
+                            {copied ? 'Copied!' : 'Copy Citation'}
+                        </button>
+                    </div>
+                )}
             </article>
         </div>
     );
