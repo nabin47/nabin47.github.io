@@ -150,6 +150,11 @@ ninja.data = [{
           description: "This course introduces the fundamental concepts, architectures, and techniques of database management systems. It covers data modeling using ER/EER models, relational data model, SQL, normalization, transaction processing, and modern database applications including distributed systems and big data technologies.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/database-management-system/";
+            },},{id: "teachings-engineering-ethics",
+          title: 'Engineering Ethics',
+          description: "This course introduces ethical principles, professional responsibilities, and moral reasoning in engineering and computing. Students explore cyberethics, ethical theories, professional codes of conduct, risk management, and environmental impacts through lectures, discussions, and case studies.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/engineering-ethics/";
             },},{id: "teachings-system-analysis-amp-design",
           title: 'System Analysis &amp;amp; Design',
           description: "This course introduces fundamental concepts of system analysis and design, including system components, development methodologies, feasibility analysis, project management, and system modeling techniques. Students will learn to analyze, design, and implement systems while considering organizational, technical, and ethical aspects.",
