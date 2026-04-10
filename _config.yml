@@ -205,7 +205,7 @@ collections:
   projects:
     output: true
   teachings:
-    output: false
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
