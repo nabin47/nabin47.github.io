@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
@@ -191,26 +198,15 @@ ninja.data = [{
             window.location.href = "/blog/2023/tikzjax/";
           
         },
-      },{id: "post-travelling-salesperson-hackerrank-solution-with-algorithm",
+      },{id: "post-a-post-with-bibliography",
         
-          title: "Travelling Salesperson HackerRank Solution with Algorithm",
+          title: "a post with bibliography",
         
-        description: "",
+        description: "an example of a blog post with bibliography",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2023/tsp-solution/";
-          
-        },
-      },{id: "post-how-tos-of-installing-and-mounting-a-fuse-based-filesystem",
-        
-          title: "How-Tos of Installing and Mounting a FUSE-based Filesystem",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/fuse-filesystem-installation-process/";
+            window.location.href = "/blog/2023/post-bibliography/";
           
         },
       },{id: "post-a-post-with-jupyter-notebook",
@@ -398,6 +394,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2015/images/";
+          
+        },
+      },{id: "post-a-post-with-formatting-and-links",
+        
+          title: "a post with formatting and links",
+        
+        description: "march &amp; april, looking forward to summer",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/formatting-and-links/";
           
         },
       },{id: "books-the-godfather",
