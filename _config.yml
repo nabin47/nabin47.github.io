@@ -200,10 +200,8 @@ collections:
     defaults:
       layout: post
     output: true
-    permalink: /news/:path/
   projects:
     output: true
-    permalink: /projects/:path/
 
 announcements:
   enabled: true
@@ -261,7 +259,7 @@ keep_files:
 # Plug-ins
 plugins:
   - jekyll-3rd-party-libraries
-  #- jekyll-archives-v2
+  - jekyll-archives-v2
   - jekyll-cache-bust
   - jekyll-email-protect
   - jekyll-feed
