@@ -32,8 +32,8 @@ cv:
         studyType: B.Sc.
         start_date: 2018
         end_date: 2023
-        score: ""
-        courses: ""
+        #score: ""
+        #courses: ""
         highlights:
           - Description 1.
           - Description 2.
@@ -60,7 +60,7 @@ cv:
 
         - institution: Shining Hour School
         location: Chittagong, Bangladesh
-        area: 
+        #area: 
         studyType: Elementary
         start_date: 2004
         end_date: 2008
@@ -69,42 +69,24 @@ cv:
           - Description 2.
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
+      - company: IUBAT-International University Of Business Agriculture And Technology
+        position: Lecturer at Department of CSE
         location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+        start_date: 2023
+        end_date: Present
+        summary: Teaching at Department of CSE, overseeing undergrad thesis and practicum, guiding students and consultation.
         highlights:
           - Relativity
           - Description 2.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Vivasot Limited
+        position: Internship Trainee
+        location: Dhaka, Bangladesh
+        start_date: 2023
+        end_date: 2023
         highlights:
           - Description 1.
           - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
 
     Volunteer:
       - company: People's Climate March
@@ -165,7 +147,7 @@ cv:
         keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
     Languages:
-      - name: German
+      - name: Bangla
         summary: "Native speaker"
 
       - name: English
