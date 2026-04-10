@@ -135,6 +135,11 @@ ninja.data = [{
           description: "This course introduces the principles, techniques, and applications of digital image processing and computer vision. Students explore image enhancement, segmentation, feature extraction, object recognition, and modern deep learning approaches for visual computing.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/computer-vision/";
+            },},{id: "teachings-data-structure-lab",
+          title: 'Data Structure Lab',
+          description: "This laboratory course provides hands-on experience in implementing fundamental data structures and algorithms using the C programming language. Students will develop practical skills in arrays, linked lists, stacks, queues, trees, graphs, recursion, and searching and sorting techniques through structured lab exercises and a mini project.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/data-structures-lab/";
             },},{id: "teachings-data-structures",
           title: 'Data Structures',
           description: "This course introduces fundamental data structures and algorithm analysis techniques essential for efficient problem solving. Topics include arrays, linked lists, stacks, queues, trees, graphs, hashing, sorting, and searching algorithms. Emphasis is placed on time and space efficiency, algorithm design, and comparative analysis of different data structure implementations.",
