@@ -1,6 +1,6 @@
 ---
 layout: course
-title: Data Structure
+title: Data Structures
 description: This course introduces fundamental data structures and algorithm analysis techniques essential for efficient problem solving. Topics include arrays, linked lists, stacks, queues, trees, graphs, hashing, sorting, and searching algorithms. Emphasis is placed on time and space efficiency, algorithm design, and comparative analysis of different data structure implementations.
 instructor: 
 year: 2025
