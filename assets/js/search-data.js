@@ -130,6 +130,11 @@ ninja.data = [{
           description: "This course introduces the fundamental concepts, techniques, and applications of computer graphics, including 2D and 3D object representation, geometric transformations, rendering, clipping algorithms, and animation. Students will explore both theoretical foundations and practical implementations using OpenGL and high-level programming languages.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/computer-graphics/";
+            },},{id: "teachings-computer-vision-and-image-processing",
+          title: 'Computer Vision and Image Processing',
+          description: "This course introduces the principles, techniques, and applications of digital image processing and computer vision. Students explore image enhancement, segmentation, feature extraction, object recognition, and modern deep learning approaches for visual computing.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/computer-vision/";
             },},{id: "teachings-data-structure",
           title: 'Data Structure',
           description: "This course introduces fundamental data structures and algorithm analysis techniques essential for efficient problem solving. Topics include arrays, linked lists, stacks, queues, trees, graphs, hashing, sorting, and searching algorithms. Emphasis is placed on time and space efficiency, algorithm design, and comparative analysis of different data structure implementations.",
