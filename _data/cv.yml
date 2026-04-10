@@ -18,7 +18,7 @@ cv:
 
   sections:
     Education:
-      - institution: Chittagong University of Engineering & Technology
+      - institution: "Chittagong University of Engineering & Technology"
         location: Chittagong, Bangladesh
         area: Computer Science and Engineering
         studyType: BSc
@@ -36,7 +36,7 @@ cv:
         end_date: 2017
 
     Experience:
-      - company: IUBAT-International University of Business Agriculture and Technology
+      - company: "IUBAT-International University of Business Agriculture and Technology"
         position: Lecturer, Department of Computer Science and Engineering
         location: Dhaka, Bangladesh
         start_date: 2023
@@ -47,7 +47,7 @@ cv:
           - Designed assignments aligned with outcome-based education (OBE)
           - Supervised database and software development projects
 
-     Publications:
+    Publications:
       - title: Federated Machine Learning for Cardiovascular Risk Assessment: A Decentralized XGBoost Approach
         authors:
           - Alom, Md Samiul
@@ -56,7 +56,7 @@ cv:
           - Mia, Naeem
           - Tamim, Fahim Shakil
           - Nabin, Jubair Ahmed
-        publisher: 2025 International Conference on Quantum Photonics, Artificial Intelligence, and Networking (QPAIN), IEEE
+        publisher: "2025 International Conference on Quantum Photonics, Artificial Intelligence, and Networking (QPAIN), IEEE"
         releaseDate: 2025
         summary: Proposed a decentralized federated learning framework using XGBoost for cardiovascular risk prediction while preserving data privacy.
 
@@ -68,7 +68,7 @@ cv:
           - Hasan, Mahedi
           - Tamim, Fahim Shakil
           - Das, Dipta Mohon
-        publisher: 2025 3rd International Conference on Advancements in Electrical, Electronics, Communication, Computing and Automation (ICAECA), IEEE
+        publisher: "2025 3rd International Conference on Advancements in Electrical, Electronics, Communication, Computing and Automation (ICAECA), IEEE"
         releaseDate: 2025
         summary: Developed a federated deep learning framework for intrusion detection in decentralized environments with enhanced security and scalability.
 
@@ -76,7 +76,7 @@ cv:
         authors:
           - Nabin, Jubair Ahmed
           - Haque, Md Mokammel
-        publisher: International Conference on Machine Intelligence and Emerging Technologies, Springer
+        publisher: "International Conference on Machine Intelligence and Emerging Technologies, Springer"
         releaseDate: 2024
         summary: Introduced a novel entropy-based dataset and applied machine learning techniques for effective crypto-ransomware detection.
 
@@ -88,7 +88,7 @@ cv:
           - Tamim, Fahim Shakil
           - Mohammad, Suzad
           - Islam, Md Rownak Ul
-        publisher: 2025 Global Conference in Emerging Technology (GINOTECH), IEEE
+        publisher: "2025 Global Conference in Emerging Technology (GINOTECH), IEEE"
         releaseDate: 2025
         summary: Proposed a temporal-aware adaptive feature selection method to improve performance and efficiency in intrusion detection systems.
 
@@ -100,9 +100,10 @@ cv:
           - Tamim, Fahim Shakil
           - Mohammad, Suzad
           - Das, Dipta Mohon
-        publisher: 2025 International Conference on Electrical, Computer and Communication Engineering (ECCE), IEEE
+        publisher: "2025 International Conference on Electrical, Computer and Communication Engineering (ECCE), IEEE"
         releaseDate: 2025
         summary: Developed a two-stage framework combining CNN and Vision Transformer for anomaly detection and classification in surveillance video data.
+
     Skills:
       - name: Machine Learning & AI
         level: Advanced
