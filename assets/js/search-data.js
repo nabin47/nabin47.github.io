@@ -121,8 +121,8 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{id: "teachings-artificial-intelligence-and-expert-systems",
-          title: 'Artificial Intelligence And Expert Systems',
-          description: "",
+          title: 'Artificial Intelligence and Expert Systems',
+          description: "This course introduces the fundamental concepts, techniques, and applications of Artificial Intelligence (AI) with a strong emphasis on expert systems. Topics include intelligent agents, problem-solving and search, knowledge representation and reasoning, probabilistic reasoning, machine learning techniques (including neural networks), and uncertainty handling. Throughout the course, students will explore how each AI technique contributes to the design, reasoning, and decision-making capabilities of expert systems. Ethical, social, and practical implications of AI-based expert systems are also discussed.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/artificial-intelligence-and-expert-systems/";
             },},{id: "teachings-introduction-to-machine-learning",
