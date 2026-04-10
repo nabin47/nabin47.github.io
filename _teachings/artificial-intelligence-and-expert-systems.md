@@ -7,7 +7,7 @@ year: 2026
 term: Spring
 location: Academic Building
 time: Saturdays - Wednesdays, 9:35-10.30 AM, 3:20-4:20 PM
-course_id: CSE 438
+course_id: CSE 4383
 schedule:
   - week: 1
     date: Week 1
@@ -139,3 +139,32 @@ schedule:
       - name: Review Notes
         url: /assets/pdf/review.pdf
 ---
+## Course Overview
+
+This course provides a comprehensive introduction to Artificial Intelligence (AI) and Expert Systems. Students will:
+
+- Understand fundamental AI concepts and intelligent agent design
+- Apply search algorithms and problem-solving techniques
+- Learn knowledge representation and logical reasoning methods
+- Analyze uncertainty using probabilistic and fuzzy models
+- Explore machine learning techniques including neural networks
+- Design and evaluate rule-based expert systems
+- Examine ethical and societal implications of AI technologies
+
+## Prerequisites
+
+- No formal prerequisites
+- Basic programming and logical reasoning knowledge is helpful
+
+## Textbooks
+
+- Artificial Intelligence: A Modern Approach — Russell & Norvig  
+- Artificial Intelligence Illuminated — Ben Coppin  
+
+## Grading
+
+- Mid-Term Exam: 25%  
+- Final Exam: 50%  
+- Class Test: 10%  
+- Assignment/Project/Presentation: 10%  
+- Participation/Attendance: 5%  
