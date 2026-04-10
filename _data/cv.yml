@@ -40,7 +40,7 @@ cv:
         position: Lecturer, Department of Computer Science and Engineering
         location: Dhaka, Bangladesh
         start_date: 2023
-        end_date: Present
+        end_date: "Present"
         summary: Teaching undergraduate courses and supervising student projects in core computing subjects.
         highlights:
           - Courses taught: Data Structures, DBMS, System Analysis & Design, Engineering Ethics
