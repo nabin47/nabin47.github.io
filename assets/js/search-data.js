@@ -145,6 +145,11 @@ ninja.data = [{
           description: "This course introduces fundamental data structures and algorithm analysis techniques essential for efficient problem solving. Topics include arrays, linked lists, stacks, queues, trees, graphs, hashing, sorting, and searching algorithms. Emphasis is placed on time and space efficiency, algorithm design, and comparative analysis of different data structure implementations.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/data-structures/";
+            },},{id: "teachings-database-management-system",
+          title: 'Database Management System',
+          description: "This course introduces the fundamental concepts, architectures, and techniques of database management systems. It covers data modeling using ER/EER models, relational data model, SQL, normalization, transaction processing, and modern database applications including distributed systems and big data technologies.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/database-management-system/";
             },},{id: "teachings-system-analysis-amp-design",
           title: 'System Analysis &amp;amp; Design',
           description: "This course introduces fundamental concepts of system analysis and design, including system components, development methodologies, feasibility analysis, project management, and system modeling techniques. Students will learn to analyze, design, and implement systems while considering organizational, technical, and ethical aspects.",
