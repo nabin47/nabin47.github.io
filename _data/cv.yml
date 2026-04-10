@@ -47,20 +47,62 @@ cv:
           - Designed assignments aligned with outcome-based education (OBE)
           - Supervised database and software development projects
 
-    Publications:
-      - title: CNN-LSTM Based Federated Learning for Intrusion Detection
+     Publications:
+      - title: Federated Machine Learning for Cardiovascular Risk Assessment: A Decentralized XGBoost Approach
         authors:
-          - Your Name
-        publisher: IEEE Conference (Under Preparation)
+          - Alom, Md Samiul
+          - Akhi, Sharmin Sultana
+          - Borsha, Samsun Nahar
+          - Mia, Naeem
+          - Tamim, Fahim Shakil
+          - Nabin, Jubair Ahmed
+        publisher: 2025 International Conference on Quantum Photonics, Artificial Intelligence, and Networking (QPAIN), IEEE
         releaseDate: 2025
-        summary: Proposed a federated learning framework integrating CNN-LSTM for efficient and privacy-preserving intrusion detection.
+        summary: Proposed a decentralized federated learning framework using XGBoost for cardiovascular risk prediction while preserving data privacy.
 
-      - title: Deep Learning-Based Anomaly Detection in Video Data
+      - title: Federated Deep Learning for Cybersecurity and Intrusion Detection in Decentralized Networks
         authors:
-          - Your Name
-        releaseDate: 2024
-        summary: Developed a two-stage model using CNN and Vision Transformer for anomaly detection and classification.
+          - Mia, Naeem
+          - Nabin, Jubair Ahmed
+          - Mohammad, Suzad
+          - Hasan, Mahedi
+          - Tamim, Fahim Shakil
+          - Das, Dipta Mohon
+        publisher: 2025 3rd International Conference on Advancements in Electrical, Electronics, Communication, Computing and Automation (ICAECA), IEEE
+        releaseDate: 2025
+        summary: Developed a federated deep learning framework for intrusion detection in decentralized environments with enhanced security and scalability.
 
+      - title: A novel file entropy dataset for Crypto-Ransomware detection using machine learning
+        authors:
+          - Nabin, Jubair Ahmed
+          - Haque, Md Mokammel
+        publisher: International Conference on Machine Intelligence and Emerging Technologies, Springer
+        releaseDate: 2024
+        summary: Introduced a novel entropy-based dataset and applied machine learning techniques for effective crypto-ransomware detection.
+
+      - title: A Novel Temporal-Aware Adaptive Feature Selection Strategy for Network Intrusion Detection Systems
+        authors:
+          - Mia, Naeem
+          - Gazi, Md Mahfuzul Haque
+          - Nabin, Jubair Ahmed
+          - Tamim, Fahim Shakil
+          - Mohammad, Suzad
+          - Islam, Md Rownak Ul
+        publisher: 2025 Global Conference in Emerging Technology (GINOTECH), IEEE
+        releaseDate: 2025
+        summary: Proposed a temporal-aware adaptive feature selection method to improve performance and efficiency in intrusion detection systems.
+
+      - title: Two-Stage Vision Transformer-Based Framework for Anomaly Detection and Classification in Surveillance Videos
+        authors:
+          - Hasan, Mahedi
+          - Nabin, Jubair Ahmed
+          - Mia, Naeem
+          - Tamim, Fahim Shakil
+          - Mohammad, Suzad
+          - Das, Dipta Mohon
+        publisher: 2025 International Conference on Electrical, Computer and Communication Engineering (ECCE), IEEE
+        releaseDate: 2025
+        summary: Developed a two-stage framework combining CNN and Vision Transformer for anomaly detection and classification in surveillance video data.
     Skills:
       - name: Machine Learning & AI
         level: Advanced
