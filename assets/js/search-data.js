@@ -125,11 +125,11 @@ ninja.data = [{
           description: "This course introduces the fundamental concepts, techniques, and applications of Artificial Intelligence (AI) with a strong emphasis on expert systems. Topics include intelligent agents, problem-solving and search, knowledge representation and reasoning, probabilistic reasoning, machine learning techniques (including neural networks), and uncertainty handling. Throughout the course, students will explore how each AI technique contributes to the design, reasoning, and decision-making capabilities of expert systems. Ethical, social, and practical implications of AI-based expert systems are also discussed.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/artificial-intelligence-and-expert-systems/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
+            },},{id: "teachings-computer-graphics",
+          title: 'Computer Graphics',
+          description: "This course introduces the fundamental concepts, techniques, and applications of computer graphics, including 2D and 3D object representation, geometric transformations, rendering, clipping algorithms, and animation. Students will explore both theoretical foundations and practical implementations using OpenGL and high-level programming languages.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
+              window.location.href = "/teachings/computer-graphics/";
             },},{
         id: 'social-cv',
         title: 'CV',
