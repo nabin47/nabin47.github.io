@@ -5,7 +5,7 @@ description: "This course introduces ethical principles, professional responsibi
 instructor: "Jubair Ahmed Nabin"
 email: "jahmed.cse@iubat.edu"
 year: 2024
-term: Fall
+term: Fall, Spring
 college: "College of Engineering and Technology"
 department: "Department of Computer Science and Engineering"
 program: BCSE
