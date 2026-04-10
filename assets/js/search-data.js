@@ -191,6 +191,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/tikzjax/";
           
         },
+      },{id: "post-travelling-salesperson-hackerrank-solution-with-algorithm",
+        
+          title: "Travelling Salesperson HackerRank Solution with Algorithm",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/tsp-solution/";
+          
+        },
       },{id: "post-how-tos-of-installing-and-mounting-a-fuse-based-filesystem",
         
           title: "How-Tos of Installing and Mounting a FUSE-based Filesystem",
@@ -200,17 +211,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2023/fuse-filesystem-installation-process/";
-          
-        },
-      },{id: "post-a-post-with-bibliography",
-        
-          title: "a post with bibliography",
-        
-        description: "an example of a blog post with bibliography",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/post-bibliography/";
           
         },
       },{id: "post-a-post-with-jupyter-notebook",
