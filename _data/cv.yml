@@ -59,18 +59,61 @@ cv:
           - Built an end to end api for serving medicine information
 
     Publications:
-      - title: CNN-LSTM Based Federated Learning for Intrusion Detection
+      - title: Federated Machine Learning for Cardiovascular Risk Assessment: A Decentralized XGBoost Approach
         authors:
-          - Your Name
-        publisher: IEEE Conference (Under Preparation)
+          - Alom, M. S.
+          - Akhi, S. S.
+          - Borsha, S. N.
+          - Mia, N.
+          - Tamim, F. S.
+          - Nabin, J. A.
+        publisher: 2025 International Conference on Quantum Photonics, Artificial Intelligence, and Networking (QPAIN), IEEE
         releaseDate: 2025
-        summary: Proposed a federated learning framework integrating CNN-LSTM for efficient and privacy-preserving intrusion detection.
+        summary: Proposed a decentralized federated learning framework using XGBoost for cardiovascular risk assessment, ensuring privacy-preserving and scalable healthcare analytics.
 
-      - title: Deep Learning-Based Anomaly Detection in Video Data
+      - title: Federated Deep Learning for Cybersecurity and Intrusion Detection in Decentralized Networks
         authors:
-          - Your Name
+          - Mia, N.
+          - Nabin, J. A.
+          - Mohammad, S.
+          - Hasan, M.
+          - Tamim, F. S.
+          - Das, D. M.
+        publisher: 2025 3rd International Conference on Advancements in Electrical, Electronics, Communication, Computing and Automation (ICAECA), IEEE
+        releaseDate: 2025
+        summary: Developed a federated deep learning-based intrusion detection system to enhance cybersecurity in decentralized environments while preserving data privacy.
+
+      - title: A Novel File Entropy Dataset for Crypto-Ransomware Detection Using Machine Learning
+        authors:
+          - Ahmed Nabin, J.
+          - Haque, M. M.
+        publisher: International Conference on Machine Intelligence and Emerging Technologies, Springer Nature Singapore
         releaseDate: 2024
-        summary: Developed a two-stage model using CNN and Vision Transformer for anomaly detection and classification.
+        summary: Introduced a novel file entropy-based dataset and machine learning approach for effective detection of crypto-ransomware.
+
+      - title: A Novel Temporal-Aware Adaptive Feature Selection Strategy for Network Intrusion Detection Systems
+        authors:
+          - Mia, N.
+          - Gazi, M. M. H.
+          - Nabin, J. A.
+          - Tamim, F. S.
+          - Mohammad, S.
+          - Islam, M. R. U.
+        publisher: 2025 Global Conference in Emerging Technology (GINOTECH), IEEE
+        releaseDate: 2025
+        summary: Proposed a temporal-aware adaptive feature selection method to improve the performance and efficiency of network intrusion detection systems.
+
+      - title: Two-Stage Vision Transformer-Based Framework for Anomaly Detection and Classification in Surveillance Videos
+        authors:
+          - Hasan, M.
+          - Nabin, J. A.
+          - Mia, N.
+          - Tamim, F. S.
+          - Mohammad, S.
+          - Das, D. M.
+        publisher: 2025 International Conference on Electrical, Computer and Communication Engineering (ECCE), IEEE
+        releaseDate: 2025
+        summary: Designed a two-stage framework combining deep learning and vision transformers for accurate anomaly detection and classification in surveillance video data.
 
     Skills:
       - name: Machine Learning & AI
