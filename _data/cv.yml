@@ -46,6 +46,17 @@ cv:
           - Courses taught: Data Structures, DBMS, System Analysis & Design, Engineering Ethics
           - Designed assignments aligned with outcome-based education (OBE)
           - Supervised database and software development projects
+      
+      - company: Vivasoft Limited
+        position: Internship Trainee
+        location: Dhaka, Bangladesh
+        start_date: 2023
+        end_date: 2023
+        summary: Led a team of front-end and back-end trainees.
+        highlights:
+          - Led a team of 6
+          - Worked on integrating front-end and back-end 
+          - Built an end to end api for serving medicine information
 
     Publications:
       - title: CNN-LSTM Based Federated Learning for Intrusion Detection
