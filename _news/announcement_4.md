@@ -11,5 +11,6 @@ The proceedings of the **5th International Conference on Computing and Machine I
 This includes my contribution as part of the conference proceedings, now publicly available through IEEE’s digital library.
 
 The full proceedings can be accessed here:  
-https://ieeexplore.ieee.org/xpl/conhome/11539750/proceeding
-DOI: https://doi.org/10.1109/ICMI68585.2026.11539948
+<a href="https://ieeexplore.ieee.org/xpl/conhome/11539750/proceeding">[10.1109/ICMI68585.2026.11539948](https://ieeexplore.ieee.org/xpl/conhome/11539750/proceeding)</a>
+<br>
+DOI: <a href="https://doi.org/10.1109/ICMI68585.2026.11539948">10.1109/ICMI68585.2026.11539948</a>
