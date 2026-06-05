@@ -3,7 +3,7 @@ layout: post
 title: How-Tos of Installing and Mounting a FUSE-based Filesystem
 date: 2023-07-20 16:40:16
 description: 
-tags: formatting links
+tags: fuse-filesystem how-to-guide
 categories: sample-posts
 ---
 

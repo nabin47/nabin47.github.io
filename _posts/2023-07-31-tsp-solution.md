@@ -3,7 +3,7 @@ layout: post
 title: Travelling Salesperson HackerRank Solution with Algorithm
 date: 2023-07-31 16:40:16
 description: 
-tags: formatting links
+tags: data-structures algorithms
 categories: sample-posts
 ---
 
