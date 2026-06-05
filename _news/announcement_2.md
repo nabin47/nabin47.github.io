@@ -1,33 +1,49 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: Research Recognition – Miyan Publications Reward 2026
+date: 2026-04-28 12:30:00-0400
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+My recent research contributions in machine learning and cybersecurity were formally recognized at the **Miyan Publications Reward-2026**.
 
----
+This recognition reflects ongoing collaborative work across multiple projects in cybersecurity, federated learning, and deep learning. I am grateful to my co-authors and collaborators for their contributions to these research efforts.
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+### Selected Publications
 
-#### Hipster list
+A selection of recent peer-reviewed publications is listed below:
 
 <ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
+    <li>
+        A Novel File Entropy Dataset for Crypto-Ransomware Detection (Springer MIET 2024)  
+        <br>
+        DOI: <a href="https://doi.org/10.1007/978-981-96-2721-9_20">10.1007/978-981-96-2721-9_20</a>
+    </li>
+
+    <li>
+        Federated Deep Learning for Cybersecurity and Intrusion Detection in Decentralized Networks (IEEE ICAECA 2025)  
+        <br>
+        DOI: <a href="https://doi.org/10.1109/ICAECA63854.2025.11012607">10.1109/ICAECA63854.2025.11012607</a>
+    </li>
+
+    <li>
+        Two-Stage Vision Transformer-Based Framework for Anomaly Detection in Surveillance Videos (IEEE ECCE 2025)  
+        <br>
+        DOI: <a href="https://doi.org/10.1109/ECCE64574.2025.11013374">0.1109/ECCE64574.2025.11013374</a>
+    </li>
+
+    <li>
+        Temporal-Aware Feature Selection for Intrusion Detection Systems (IEEE GINOTECH 2025)  
+        <br>
+        DOI: <a href="https://doi.org/10.1109/GINOTECH63460.2025.11076711">10.1109/GINOTECH63460.2025.11076711</a>
+    </li>
+
+    <li>
+        Federated Machine Learning for Cardiovascular Risk Assessment (IEEE QPAIN 2025)  
+        <br>
+        DOI: <a href="https://doi.org/10.1109/QPAIN66474.2025.11171956">10.1109/QPAIN66474.2025.11171956</a>
+    </li>
 </ul>
 
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
-
 ---
-
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
-
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
