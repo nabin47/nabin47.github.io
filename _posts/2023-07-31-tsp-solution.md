@@ -4,7 +4,7 @@ title: Travelling Salesperson HackerRank Solution with Algorithm
 date: 2023-07-31 16:40:16
 description: 
 tags: data-structures algorithms
-categories: sample-posts
+categories: problem-solving
 ---
 
 Travelling salesperson is a classic graph problem. Here, the cost of moving from city `i` to city `j` is given. The task is to find a path, starting from the city `0` encompassing all the cities at most once whose cost is the smallest.

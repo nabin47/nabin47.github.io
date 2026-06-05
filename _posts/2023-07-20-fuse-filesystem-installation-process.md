@@ -4,7 +4,7 @@ title: How-Tos of Installing and Mounting a FUSE-based Filesystem
 date: 2023-07-20 16:40:16
 description: 
 tags: fuse-filesystem how-to-guide
-categories: sample-posts
+categories: guides
 ---
 
 ## What exactly is FUSE?
