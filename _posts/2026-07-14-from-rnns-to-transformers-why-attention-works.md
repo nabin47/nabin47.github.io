@@ -81,7 +81,7 @@ I'll admit this distinction wasn't always obvious to me in an explicit way. I un
 
 This is the mechanism underlying captioning, machine translation, and essentially any transformer task involving two distinct sequences (source and target). The line worth keeping: **self-attention looks within; cross-attention looks across.**
 
-
+{% include figure.liquid loading="eager" path="assets/img/the-dog-frisbee-example.jpg" class="img-fluid rounded z-depth-1" caption="Self Attention in Action" title="Self Attention in Action" %}
 
 ## Multi-Head Attention: Asking Several Questions at Once
 
