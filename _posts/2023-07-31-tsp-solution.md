@@ -39,7 +39,8 @@ Sample Output
 
 Input Visualization
 
-![Input visualization through graph](/assets/input-visualization-travelling-salesman.png)
+{% include figure.liquid loading="eager" path="/assets/input-visualization-travelling-salesman.png" class="img-fluid rounded z-depth-1" caption="Input visualization through graph" title="Input visualization through graph" %}
+
 
 ## Algorithm
 
