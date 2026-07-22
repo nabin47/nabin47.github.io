@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-travelling-salesperson-hackerrank-solution-with-algorithm",
+        },{id: "post-from-rnns-to-transformers-why-attention-actually-works",
+        
+          title: "From RNNs to Transformers: Why Attention Actually Works",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/from-rnns-to-transformers-why-attention-works/";
+          
+        },
+      },{id: "post-travelling-salesperson-hackerrank-solution-with-algorithm",
         
           title: "Travelling Salesperson HackerRank Solution with Algorithm",
         
