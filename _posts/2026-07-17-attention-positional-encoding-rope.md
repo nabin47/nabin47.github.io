@@ -33,7 +33,7 @@ Same words. Opposite meaning. When I gave my students this pair after teaching s
 
 Here's the part that catches people, myself included, when they first learn this: attention computes relationships between words using dot products between their vector representations. Shuffle the input words and you get the exact same set of relationships, just relabeled. Position isn't encoded anywhere in that computation. As far as the raw attention mechanism is concerned, a sentence is a *set* of words, not a *sequence*.
 
-{% include figure.liquid loading="eager" path="assets/img/dog-bites-man-attention.jpg" class="img-fluid rounded z-depth-1" caption='Self-attention applied to "Dog bites man" vs. "Man bites dog."' title='Figure 1: Self-attention applied to "Dog bites man" vs. "Man bites dog."' %}
+{% include figure.liquid loading="eager" path="assets/img/dog-bites-man-attention.jpg" class="img-fluid rounded z-depth-1" caption="Self-attention applied to `Dog bites man` vs. `Man bites dog.`" title="Figure 1: Self-attention applied to `Dog bites man` vs. `Man bites dog.`" %}
 
 ## The Original Fix: Sinusoidal Positional Encoding
 
