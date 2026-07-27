@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-from-rnns-to-transformers-why-attention-actually-works",
+        },{id: "post-what-attention-actually-needs-from-logistic-regression-to-rope",
+        
+          title: "What Attention Actually Needs: From Logistic Regression to RoPE",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/attention-positional-encoding-rope/";
+          
+        },
+      },{id: "post-from-rnns-to-transformers-why-attention-actually-works",
         
           title: "From RNNs to Transformers: Why Attention Actually Works",
         
