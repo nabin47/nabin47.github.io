@@ -33,12 +33,11 @@ Same words. Opposite meaning. When I gave my students this pair after teaching s
 
 Here's the part that catches people, myself included, when they first learn this: attention computes relationships between words using dot products between their vector representations. Shuffle the input words and you get the exact same set of relationships, just relabeled. Position isn't encoded anywhere in that computation. As far as the raw attention mechanism is concerned, a sentence is a *set* of words, not a *sequence*.
 
-{% include figure.liquid loading="eager" path="assets/img/dog-bites-man-attention.jpg" class="img-fluid rounded z-depth-1" caption='Self-attention applied to "Dog bites man" vs. "Man bites dog."' title='Self-attention applied to "Dog bites man" vs. "Man bites dog."' %}
-
+{% include figure.liquid loading="eager" path="assets/img/dog-bites-man-attention.jpg" class="img-fluid rounded z-depth-1" caption='Self-attention applied to "Dog bites man" vs. "Man bites dog."' title='Figure 1: Self-attention applied to "Dog bites man" vs. "Man bites dog."' %}
 
 ## The Original Fix: Sinusoidal Positional Encoding
 
-The original transformer paper addresses this with positional encoding. [CITATION NEEDED — reference to Vaswani et al., "Attention Is All You Need"] Before words go into the model, a pattern built from sine and cosine waves gets added to each word's vector, with one unique pattern per position. Position 1 gets one wave pattern, position 2 gets a slightly different one, and so on. The model learns to read these patterns as "where am I in the sentence."
+The original transformer paper addresses this with positional encoding. (Vaswani et al., 2017) Before words go into the model, a pattern built from sine and cosine waves gets added to each word's vector, with one unique pattern per position. Position 1 gets one wave pattern, position 2 gets a slightly different one, and so on. The model learns to read these patterns as "where am I in the sentence."
 
 Why waves specifically, rather than just labeling positions 1, 2, 3? Raw integers like position 500 would dominate the arithmetic and destabilize training — the scale of the numbers would swamp the actual word representations. Sine and cosine waves stay small and bounded regardless of position, and because they're built from overlapping frequencies, they let the model infer the *distance* between any two positions, not just each word's raw index.
 
@@ -54,7 +53,7 @@ This is the real weakness: it's also the reason most modern large language model
 
 ## RoPE: Encoding Distance Instead of Position
 
-Rotary Position Embeddings (RoPE) fix this by changing *what* gets encoded, not just *how*. Instead of adding a fixed positional label to each word's vector, RoPE rotates each word's representation by an angle determined by its position. [CITATION NEEDED — reference to Su et al., RoFormer paper]
+Rotary Position Embeddings (RoPE) fix this by changing *what* gets encoded, not just *how*. Instead of adding a fixed positional label to each word's vector, RoPE rotates each word's representation by an angle determined by its position. (Su et al., 2024)
 
 The key idea: when the model compares two words during attention, the *difference* between their rotation angles naturally encodes how far apart they are — not where either one sits in absolute terms. Distance falls directly out of the geometry of the comparison, rather than being something the model has to separately infer from two absolute labels.
 
@@ -71,3 +70,9 @@ The throughline here isn't really about positional encoding specifically — it'
 None of these are exotic failures. They're the ordinary kind of misconception that comes from learning a technique's name before its actual shape.
 
 Where have you run into a model — or a technique more broadly — being pushed past the conditions it was actually built for?
+
+## References
+
+1. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. *Advances in Neural Information Processing Systems, 30*. [arXiv:1706.03762](https://arxiv.org/abs/1706.03762)
+
+2. Su, J., Lu, Y., Pan, S., Murtadha, A., Wen, B., & Liu, Y. (2024). RoFormer: Enhanced transformer with rotary position embedding. *Neurocomputing, 568*, 127063. [arXiv:2104.09864](https://arxiv.org/abs/2104.09864)
