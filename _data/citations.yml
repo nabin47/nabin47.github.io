@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-17'
+  last_updated: '2026-07-27'
 papers:
   Rnh7FmQAAAAJ:2osOgNQ5qMEC:
-    citations: 2
+    citations: 1
     title: 'Federated Machine Learning for Cardiovascular Risk Assessment: A Decentralized XGBoost Approach'
     year: '2025'
   Rnh7FmQAAAAJ:9yKSN-GCB0IC:
-    citations: 0
+    citations: 1
     title: A Novel Temporal-Aware Adaptive Feature Selection Strategy for Network Intrusion Detection Systems
     year: '2025'
   Rnh7FmQAAAAJ:UeHWp8X0CEIC:
