@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-27'
+  last_updated: '2026-08-19'
 papers:
   Rnh7FmQAAAAJ:2osOgNQ5qMEC:
     citations: 1
@@ -26,6 +26,6 @@ papers:
     title: Two-Stage Vision Transformer-Based Framework for Anomaly Detection and Classification in Surveillance Videos
     year: '2025'
   Rnh7FmQAAAAJ:u5HHmVD_uO8C:
-    citations: 3
+    citations: 4
     title: Federated Deep Learning for Cybersecurity and Intrusion Detection in Decentralized Networks
     year: '2025'
