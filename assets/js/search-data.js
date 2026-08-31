@@ -106,6 +106,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_4/";
+            },},{id: "news-publication-of-my-paper-in-ieee-xplore-peccii-2026",
+          title: 'Publication of My Paper in IEEE Xplore – PECCII 2026',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_5/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
