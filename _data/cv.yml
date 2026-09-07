@@ -10,11 +10,11 @@
     - name: Location
       value: Dhaka, Bangladesh
     - name: Email
-      value: nabin@iubat.edu  # TODO replace with your actual institutional email
+      value: jahmed.cse@iubat.edu  
     - name: Website
       value: nabin47.github.io
     - name: Google Scholar
-      value: Scholar profile  # TODO add your Google Scholar URL
+      value: https://scholar.google.com/citations?user=Rnh7FmQAAAAJ&hl=en
     - name: Research Interests
       value: Federated Learning, Intrusion Detection Systems, Explainable AI (XAI), Adversarial Machine Learning, Video Anomaly Detection
 
