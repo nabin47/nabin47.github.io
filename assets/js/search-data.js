@@ -24,8 +24,8 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-cv",
-          title: "CV",
-          description: "",
+          title: "cv",
+          description: "Curriculum Vitae of Jubair Ahmed Nabin, Lecturer &amp; Researcher in CSE.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
