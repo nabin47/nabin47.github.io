@@ -10,7 +10,7 @@
     - name: Location
       value: Dhaka, Bangladesh
     - name: Email
-      value: jahmed.cse@iubat.edu  
+      value: jahmed.cse@iubat.edu
     - name: Website
       value: nabin47.github.io
     - name: Google Scholar
@@ -56,10 +56,10 @@
     - title: "Federated Learning & Intrusion Detection"
       items:
         - "<b>Nabin, J. A.</b>, et al. \"CNN-LSTM Federated Learning for Network Intrusion Detection.\" <i>IEEE ICAECA 2025</i>, 2025. (Corresponding author)"
-        - "<b>Nabin, J. A.</b>, et al. \"Temporal Feature Selection for Intrusion Detection.\" <i>GINOTECH 2025</i>, 2025. [<em>Note: confirm full conference name</em>]"
+        - "<b>Nabin, J. A.</b>, et al. \"Temporal Feature Selection for Intrusion Detection.\" <i>GINOTECH 2025</i>, 2025."
     - title: "Explainable AI & Adversarial Robustness"
       items:
-        - "Hassan, M. R., <b>Nabin, J. A.</b>, & Toyeer-E-Ferdoush. \"Cross-Domain Adversarial Robustness and Explainability Stability in Phishing Detection Systems.\" <i>2026 International Conference on Power, Electronics, Communications, Computing, and Intelligent Infrastructure (PECCII)</i>, June 2026. DOI: <a href=\"https://doi.org/10.1109/PECCII70991.2026.11661863\">10.1109/PECCII70991.2026.11661863</a>"
+        - "Hassan, M. R., <b>Nabin, J. A.</b>, & Toyeer-E-Ferdoush. \"Cross-Domain Adversarial Robustness and Explainability Stability in Phishing Detection Systems.\" <i>PECCII 2026 (IEEE)</i>, June 2026. DOI: 10.1109/PECCII70991.2026.11661863"
         - "Sarker, M., Efat, A. H., <b>Nabin, J. A.</b>, Khan, M. A., & Zibran, M. F. \"Unraveling the Factors of Procrastination: An Insightful Assessment of Procrastination Levels Through ML and XAI.\" <i>IEEE ICMI 2026</i>, 2026."
         - "<b>Nabin, J. A.</b>, et al. \"Multimodal Meme Sentiment Analysis with XAI.\" <i>QPAIN 2025</i>, 2025."
     - title: "Computer Vision & Anomaly Detection"
@@ -76,7 +76,7 @@
         - Research Publication Recognition — Miyan Publications Reward Ceremony 2026
     - year: 2023
       items:
-        - "B.Sc. Graduation, CUET"
+        - "B.Sc. Graduation, CUET — CGPA 3.64/4.00"
 
 - title: Technical Skills
   type: nested_list
@@ -116,4 +116,4 @@
 - title: Professional Service
   type: list
   contents:
-    - Presenter, IEEE ICMI 2026 / PECCII 2026 / IEEE ICAECA 2025 / GINOTECH 2025 / ECCE 2025 / ICCIT 2025 / QPAIN 2025 / Springer Conference 2024
+    - "Presenter, IEEE ICMI 2026 / PECCII 2026 / IEEE ICAECA 2025 / GINOTECH 2025 / ECCE 2025 / ICCIT 2025 / QPAIN 2025 / Springer Conference 2024"
