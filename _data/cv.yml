@@ -1,25 +1,32 @@
 cv:
   name: Jubair Ahmed Nabin
   location: Dhaka, Bangladesh
-  email: jahmed.cse@iubat.edu
+  email: janabin.research@gmail.com
   website: https://nabin47.github.io
   social_networks:
+    - network: GitHub
+      username: nabin47
     - network: Google Scholar
       username: Rnh7FmQAAAAJ
 
   sections:
     summary:
-      - Lecturer and researcher in Computer Science & Engineering at IUBAT, Dhaka. Research focuses on federated learning, intrusion detection, explainable AI, adversarial machine learning, and video anomaly detection. Author of 8+ conference papers at IEEE, Springer, and other venues.
+      - Lecturer and researcher in Computer Science & Engineering at IUBAT, Dhaka.
+        Research focuses on federated learning, intrusion detection systems, explainable
+        AI (SHAP/LIME), adversarial machine learning, and video anomaly detection.
+        Author of 7 peer-reviewed papers at IEEE and Springer venues.
 
     education:
       - institution: Chittagong University of Engineering & Technology (CUET)
         area: Computer Science and Engineering
         degree: B.Sc.
-        start_date: 2018
-        end_date: 2023
+        start_date: 2018-09
+        end_date: 2023-06
         highlights:
           - "CGPA: 3.64 / 4.00"
-          - "Relevant Coursework: Machine Learning, Data Structures & Algorithms, Computer Networks, Database Management Systems, Artificial Intelligence, Software Engineering"
+          - "Relevant Coursework: Machine Learning, Data Structures & Algorithms,
+            Computer Networks, Database Management Systems, Artificial Intelligence,
+            Software Engineering"
 
     experience:
       - company: International University of Business Agriculture and Technology (IUBAT)
@@ -27,101 +34,173 @@ cv:
         location: Dhaka, Bangladesh
         start_date: 2023-01
         highlights:
-          - "Courses taught: Data Structures, Database Management Systems, System Analysis & Design, Engineering Ethics, Fundamentals of Computing, Microsoft Office/Excel"
-          - Developed lab materials and assessment rubrics for DBMS and Data Structures courses
-          - Mentored undergraduate students in research projects leading to conference submissions
+          - "Courses taught: Artificial Intelligence, Data Science, Data Structures,
+            Database Management Systems, System Analysis & Design"
+          - Mentored 35+ undergraduate students on ML and cybersecurity research
+            projects; two student-led projects advanced to peer-reviewed publication
+            (IEEE PECCII 2026, IEEE ICMI 2026)
 
-      - company: IUBAT / CUET
-        position: Independent Researcher
+      - company: CUET / IUBAT
+        position: Researcher — Machine Learning & Cybersecurity
         location: Dhaka, Bangladesh
-        start_date: 2023-01
+        start_date: 2022-01
         highlights:
-          - Designed and implemented a CNN-LSTM federated learning framework for network intrusion detection, preserving privacy across distributed clients while maintaining competitive detection accuracy
-          - Developed a two-stage video anomaly detection pipeline combining CNNs and vision transformers for temporal-spatial anomaly localization
-          - Investigated cross-domain adversarial robustness (PGD and C&W attacks) and SHAP-based explainability stability in phishing detection systems
-          - Built a multimodal (text + image) meme sentiment analysis system using XAI methods; extended to procrastination level assessment via ML and SHAP-based behavioral feature analysis
+          - Developed a privacy-preserving CNN-LSTM architecture within a Federated
+            Learning framework for network intrusion detection, achieving over 99.36%
+            accuracy across all seven attack classes on CIC-IDS2017 without centralizing
+            raw data; raised F1-score on the hardest class (Web Attack) from 0.20
+            (CNN baseline) to 0.93, outperforming LSTM, CNN+BiLSTM, and CNN+GRU variants
+          - Built a novel file-entropy dataset and detection pipeline for crypto-ransomware,
+            developing a custom FUSE-based filesystem to intercept and log file
+            write/delete operations across 123 file types (30 ransomware strains,
+            93 benign); trained ML models achieving up to 96% accuracy (first-author,
+            Springer LNNS 2025)
+          - Evaluated cross-domain adversarial robustness and XAI explanation stability
+            in phishing detection, comparing PGD and Carlini-Wagner attack accuracy
+            alongside SHAP explanation drift across feature-engineered vs. raw-URL
+            input representations (IEEE PECCII 2026)
+          - Designed a two-stage CNN + Vision Transformer pipeline for video anomaly
+            detection on the UCF-Crime dataset, reaching 98% accuracy on binary
+            classification and 95% on multi-class categorization; introduced a keyframe
+            extraction algorithm cutting per-video processing time to 20ms
 
     publications:
-      - title: "Federated Deep Learning for Cybersecurity and Intrusion Detection in Decentralized Networks"
+      - title: "Cross-Domain Adversarial Robustness and Explainability Stability in
+          Phishing Detection Systems"
         authors:
-          - "**Nabin, J. A.**"
-          - et al.
-        date: "2025"
-        journal: IEEE ICAECA 2025
-
-      - title: "A Novel Temporal-Aware Adaptive Feature Selection Strategy for Network Intrusion Detection Systems"
-        authors:
-          - "**Nabin, J. A.**"
-          - et al.
-        date: "2025"
-        journal: GINOTECH 2025
-
-      - title: "Cross-Domain Adversarial Robustness and Explainability Stability in Phishing Detection Systems"
-        authors:
-          - Hassan, M. R.
-          - "**Nabin, J. A.**"
+          - Md. Rifat Hassan
+          - "**J. A. Nabin**"
           - Toyeer-E-Ferdoush
         date: "2026-06"
-        journal: "PECCII 2026 (IEEE)"
-        doi: "10.1109/PECCII70991.2026.11661863"
+        journal: IEEE International Conference on Power, Electronics, Communications,
+          Computing, and Intelligent Infrastructure (PECCII)
+        doi: 10.1109/PECCII70991.2026.11661863
 
-      - title: "Unraveling the Factors of Procrastination: An Insightful Assessment of Procrastination Levels Through ML and XAI"
+      - title: "Unraveling the Factors of Procrastination: An Insightful Assessment
+          of Procrastination Levels Through ML and XAI"
         authors:
-          - Sarker, M.
-          - Efat, A. H.
-          - "**Nabin, J. A.**"
-          - Khan, M. A.
-          - Zibran, M. F.
-        date: "2026"
-        journal: IEEE ICMI 2026
+          - Mariam Sarker
+          - Anwar Hossain Efat
+          - Maria Afrin Khan
+          - Minhaz Zibran
+          - "**J. A. Nabin**"
+        date: "2026-04"
+        journal: IEEE 5th International Conference on Computing and Machine Intelligence
+          (ICMI)
+        doi: 10.1109/ICMI68585.2026.11539948
 
-      - title: "Two-Stage Vision Transformer-Based Framework for Anomaly Detection and Classification in Surveillance Videos"
+      - title: "A Novel File Entropy Dataset for Crypto-Ransomware Detection Using
+          Machine Learning"
         authors:
-          - "**Nabin, J. A.**"
-          - et al.
-        date: "2025"
-        journal: 2025 International Conference on Electrical, Computer and Communication Engineering (ECCE)
+          - "**J. A. Nabin**"
+          - Md Mokammel Haque
+        date: "2025-07"
+        journal: 2nd International Conference on Machine Intelligence and Emerging
+          Technologies (Springer LNNS)
+        doi: 10.1007/978-981-96-2721-9_20
+
+      - title: "Federated Deep Learning for Cybersecurity and Intrusion Detection
+          in Decentralized Networks"
+        authors:
+          - Naeem Mia
+          - "**J. A. Nabin**"
+          - Suzad Mohammad
+          - Mahedi Hasan
+          - Fahim Shakil Tamim
+          - Dipta Mohon Das
+        date: "2025-07"
+        journal: IEEE 3rd International Conference on Advancements in Electrical,
+          Electronics, Communication, Computing and Automation (ICAECA)
+        doi: 10.1109/ICAECA63854.2025.11012607
+
+      - title: "A Novel Temporal-Aware Adaptive Feature Selection Strategy for Network
+          Intrusion Detection Systems"
+        authors:
+          - Naeem Mia
+          - Md Mahfuzul Haque Gazi
+          - "**J. A. Nabin**"
+          - Fahim Shakil Tamim
+          - Suzad Mohammad
+          - Md Rownak Ul Islam
+        date: "2025-05"
+        journal: IEEE Global Conference in Emerging Technology (GINOTECH)
+        doi: 10.1109/GINOTECH63460.2025.11076711
+
+      - title: "Two-Stage Vision Transformer-Based Framework for Anomaly Detection
+          and Classification in Surveillance Videos"
+        authors:
+          - Mahedi Hasan
+          - "**J. A. Nabin**"
+          - Naeem Mia
+          - Fahim Shakil Tamim
+          - Suzad Mohammad
+          - Dipta Mohon Das
+        date: "2025-02"
+        journal: IEEE International Conference on Electrical, Computer and Communication
+          Engineering (ECCE)
+        doi: 10.1109/ECCE64574.2025.11013374
 
     projects:
       - name: FL-IDS Framework
-        date: "2023 – Present"
+        date: "2022 – Present"
         highlights:
-          - CNN-LSTM federated learning architecture for privacy-preserving network intrusion detection
-          - Evaluated on NSL-KDD and CICIDS benchmark datasets across distributed clients
+          - Privacy-preserving CNN-LSTM federated learning architecture for network
+            intrusion detection across distributed clients without raw data sharing
+          - Evaluated on CIC-IDS2017 across seven attack classes; 99.36% accuracy,
+            Web Attack F1 raised from 0.20 to 0.93
+
+      - name: Crypto-Ransomware Detection Pipeline
+        date: "2023 – 2025"
+        highlights:
+          - Built a FUSE-based filesystem to capture file entropy signals across
+            123 file types (30 ransomware families, 93 benign categories)
+          - Trained ML classifiers achieving up to 96% detection accuracy;
+            published first-author at Springer LNNS 2025
 
       - name: Adversarial Phishing Detection Study
         date: "2024 – 2026"
         highlights:
-          - Measured SHAP explanation drift under PGD and C&W adversarial perturbations in phishing URL classifiers
-          - Quantified cross-domain robustness gaps; published at PECCII 2026 (IEEE)
+          - Measured SHAP explanation drift under PGD and Carlini-Wagner adversarial
+            perturbations in phishing URL classifiers
+          - Quantified cross-domain robustness gaps across feature-engineered vs.
+            raw-URL input representations; published at IEEE PECCII 2026
 
-      - name: Multimodal Meme Sentiment Analyzer
-        date: "2024 – 2025"
+      - name: Video Anomaly Detection System
+        date: "2023 – 2025"
         highlights:
-          - Late-fusion architecture combining BERT text embeddings and ResNet image features
-          - SHAP applied to identify dominant modality per prediction
+          - Two-stage CNN + Vision Transformer pipeline for spatial-temporal anomaly
+            detection on the UCF-Crime dataset
+          - Introduced a keyframe extraction algorithm reducing per-video processing
+            time to 20ms; 98% binary and 95% multi-class accuracy
 
     skills:
       - label: Programming Languages
-        details: Python, C, C++, SQL, JavaScript
+        details: Python, C++, SQL, JavaScript
       - label: ML / DL Frameworks
-        details: PyTorch, TensorFlow, Keras, Scikit-learn, Flower (Federated Learning)
+        details: PyTorch, TensorFlow, Keras, Scikit-learn
+      - label: Federated Learning
+        details: FL aggregation pipelines, privacy-preserving distributed training
       - label: Explainability & Security
-        details: SHAP, LIME, IBM Adversarial Robustness Toolbox (ART), Foolbox
+        details: SHAP, LIME, adversarial robustness (PGD, Carlini-Wagner)
       - label: Data & Visualization
-        details: Pandas, NumPy, Matplotlib, Seaborn, OpenCV
-      - label: Environments & Tools
-        details: Git, GitHub, LaTeX, Jupyter Notebook, VS Code, Google Colab
-      - label: Databases
-        details: MySQL, PostgreSQL, MongoDB
+        details: Pandas, NumPy, Matplotlib, OpenCV
+      - label: Tools & Environments
+        details: Git, Linux, LaTeX, Jupyter Notebook, VS Code, Google Colab
 
     awards:
       - label: Research Publication Recognition
         details: Miyan Publications Reward Ceremony 2026
+      - label: Competitive Programming
+        details: CUET Talent Hunt IUPC — 5th Position (2018–2022)
+      - label: Competitive Programming
+        details: Meta Hacker Cup — Round 1 Qualifier (2020, 2022)
+      - label: Academic Merit
+        details: General Board Scholarship — 2015, 2017
 
     service:
       - label: Conference Presenter
-        details: "IEEE ICMI 2026, PECCII 2026, IEEE ICAECA 2025, GINOTECH 2025, ECCE 2025, ICCIT 2025, QPAIN 2025, Springer Conference 2024"
+        details: "IEEE PECCII 2026, IEEE ICMI 2026, IEEE ICAECA 2025, IEEE GINOTECH
+          2025, IEEE ECCE 2025, Springer MIET 2025"
 
 design:
   theme: classic
