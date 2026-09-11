@@ -24,12 +24,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Lecturer in the [Department of Computer Science and Engineering](https://cse.iubat.edu/jubair-ahmed-nabin/) at the [IUBAT— International University of Business Agriculture and Technology](https://iubat.edu/). I am currently seeking Ph.D. opportunities in Computer Science to further advance my research in secure and responsible artificial intelligence.
+I am a Lecturer in the [Department of Computer Science and Engineering](https://cse.iubat.edu/jubair-ahmed-nabin/) at the [IUBAT— International University of Business Agriculture and Technology](https://iubat.edu/). I am currently seeking fully funded Ph.D. opportunities in Computer Science. My research lies at the intersection of Machine Learning and Cybersecurity, with a focus on building privacy-preserving, robust AI systems that can detect and respond to complex security threats in real-world environments. My work has resulted in publications at IEEE and Springer venues spanning federated learning, intrusion detection, and adversarial robustness.
 
-My research lies at the intersection of Machine Learning and Cybersecurity. The primary goal of my work is to develop intelligent, data-driven systems that can detect, analyze, and respond to complex security challenges in real-world environments.
+These questions drive my current work:
 
-I specifically focus on answering three core questions:
-
-- How can deep learning models be effectively applied to security and anomaly detection problems?
-- How can federated learning be leveraged to build privacy-preserving and distributed intelligent systems?
-- How can we design robust and trustworthy AI systems for real-world cybersecurity applications?
+- How can federated learning enable privacy-preserving intrusion detection across distributed networks?
+- How can deep learning generalize effectively to novel and evolving network security threats?
+- How can we design explainable and adversarially robust AI systems that remain trustworthy in deployment?
