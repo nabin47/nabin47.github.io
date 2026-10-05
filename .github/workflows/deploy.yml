@@ -18,13 +18,7 @@ on:
       - "Gemfile"
       - "Gemfile.lock"
       - "!.github/workflows/axe.yml"
-      - "!.github/workflows/broken-links.yml"
-      - "!.github/workflows/deploy-docker-tag.yml"
-      - "!.github/workflows/deploy-image.yml"
-      - "!.github/workflows/docker-slim.yml"
-      - "!.github/workflows/lighthouse-badger.yml"
       - "!.github/workflows/prettier.yml"
-      - "!lighthouse_results/**"
       - "!CONTRIBUTING.md"
       - "!CUSTOMIZE.md"
       - "!FAQ.md"
@@ -47,18 +41,16 @@ on:
       - "Gemfile"
       - "Gemfile.lock"
       - "!.github/workflows/axe.yml"
-      - "!.github/workflows/broken-links.yml"
-      - "!.github/workflows/deploy-docker-tag.yml"
-      - "!.github/workflows/deploy-image.yml"
-      - "!.github/workflows/docker-slim.yml"
-      - "!.github/workflows/lighthouse-badger.yml"
       - "!.github/workflows/prettier.yml"
-      - "!lighthouse_results/**"
       - "!CONTRIBUTING.md"
       - "!CUSTOMIZE.md"
       - "!FAQ.md"
       - "!INSTALL.md"
       - "!README.md"
+  # commits pushed by these workflows use GITHUB_TOKEN, which does not trigger a push event
+  workflow_run:
+    workflows: ["Render a CV", "Update Google Scholar Citations"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -68,16 +60,17 @@ jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3.5"
           bundler-cache: true
       - name: Setup Python 🐍
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.13"
           cache: "pip" # caching pip dependencies
