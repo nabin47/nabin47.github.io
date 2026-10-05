@@ -2,7 +2,7 @@
 layout: post
 title: Travelling Salesperson HackerRank Solution with Algorithm
 date: 2023-07-31 16:40:16
-description: 
+description:
 tags: data-structures algorithms
 categories: problem-solving
 ---
@@ -15,7 +15,7 @@ Given a matrix `M` of size `N` where `M[i][j]` denotes the cost of moving from c
 
 Input Format
 
-The first line of input contains an integer T denoting the no of test cases. Then T test cases follow. Each test case contains an integer N denoting the size of the matrix then in the next line are N*N space separated values of the matrix M.
+The first line of input contains an integer T denoting the no of test cases. Then T test cases follow. Each test case contains an integer N denoting the size of the matrix then in the next line are N\*N space separated values of the matrix M.
 
 Constraints
 
@@ -37,10 +37,13 @@ Sample Output
 2233000
 ```
 
+{% comment %}
+Re-enable once assets/img/input-visualization-travelling-salesman.png is uploaded:
+
 Input Visualization
 
-{% include figure.liquid loading="eager" path="/assets/input-visualization-travelling-salesman.png" class="img-fluid rounded z-depth-1" caption="Input visualization through graph" title="Input visualization through graph" %}
-
+{% include figure.liquid loading="eager" path="assets/img/input-visualization-travelling-salesman.png" class="img-fluid rounded z-depth-1" caption="Input visualization through graph" title="Input visualization through graph" %}
+{% endcomment %}
 
 ## Algorithm
 
@@ -72,7 +75,7 @@ void traverse(vector<vector<int> >& arr, int cur, vector<int> visited, int cnt, 
     ans = min(ans, total + arr[cur][0]); // add the distance from last node to the 0th node
     return;
   }
-  
+
   // explore all the paths that are not yet visited
   for(int i = 0; i < n; i++) {
     if(!visited[i] && valid(i)) {
@@ -86,28 +89,28 @@ void traverse(vector<vector<int> >& arr, int cur, vector<int> visited, int cnt, 
 int main() {
   int t;
   cin>>t;
-  
+
   while(t--) {
     cin>>n;
     vector<vector<int> > arr(n, vector<int>(n));
     vector<int> visited(n, 0);
     ans = INT_MAX;
-    
+
     // take the graph input
     for(int i = 0; i < n; i++) {
       for(int j = 0; j < n; j++) {
         cin>>arr[i][j];
       }
     }
-    
+
     visited[0] = 1;
     // check all possible path to find the min cost path
-    traverse(arr, 0, visited, 1, 0); 
-    
+    traverse(arr, 0, visited, 1, 0);
+
     cout<<ans<<endl;
   }
   return 0;
 }
 ```
-**Problem link:** [Travelling Salesman - Target Samsung 13 Nov'19](https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/travelling-salesman-4)
-------
+
+## **Problem link:** [Travelling Salesman - Target Samsung 13 Nov'19](https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/travelling-salesman-4)

@@ -72,7 +72,6 @@ schedule:
     session: 14
     topic: "Risk, Safety, and Engineering Responsibility"
     description: "Risk perception, safety, accidents, and ethical design considerations. Final group presentations."
-
 ---
 
 ## Course Overview
@@ -82,6 +81,7 @@ Engineering Ethics introduces students to the ethical responsibilities of engine
 ## Learning Outcomes
 
 By the end of the course, students will be able to:
+
 - Understand moral frameworks in engineering practice
 - Identify professional and ethical responsibilities
 - Apply ethical reasoning to real-world case studies
@@ -89,5 +89,5 @@ By the end of the course, students will be able to:
 
 ## Textbooks
 
-- Tavani, H. T. *Ethics and Technology* (5th Edition)
-- Fleddermann, C. B. *Engineering Ethics* (4th Edition)
+- Tavani, H. T. _Ethics and Technology_ (5th Edition)
+- Fleddermann, C. B. _Engineering Ethics_ (4th Edition)

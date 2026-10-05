@@ -12,7 +12,7 @@ schedule:
   - week: 1
     topic: Course Introduction
     description: Course policies, lab rules, and importance of data structures.
-  
+
   - week: 2
     topic: Arrays
     description: Implementation and analysis of arrays and operations in C.
@@ -93,24 +93,24 @@ By the end of this course, students will be able to:
 
 ## Lab Topics
 
-- Arrays and Structures  
-- Singly & Doubly Linked Lists  
-- Stack (Array and Linked List Implementation)  
-- Queue & Circular Queue  
-- Recursion (Factorial, Fibonacci, Tower of Hanoi)  
-- Binary Trees & Binary Search Trees  
-- Tree Traversals (Inorder, Preorder, Postorder)  
-- Graphs – Adjacency Matrix/List, BFS & DFS  
-- Searching (Linear, Binary) & Sorting (Bubble, Merge, Quick)  
-- Hashing Techniques (Introductory)  
-- Mini Project: Menu-driven application  
+- Arrays and Structures
+- Singly & Doubly Linked Lists
+- Stack (Array and Linked List Implementation)
+- Queue & Circular Queue
+- Recursion (Factorial, Fibonacci, Tower of Hanoi)
+- Binary Trees & Binary Search Trees
+- Tree Traversals (Inorder, Preorder, Postorder)
+- Graphs – Adjacency Matrix/List, BFS & DFS
+- Searching (Linear, Binary) & Sorting (Bubble, Merge, Quick)
+- Hashing Techniques (Introductory)
+- Mini Project: Menu-driven application
 
 ## Grading
 
-- Assignment/Project: 20%  
-- Attendance & Participation: 20%  
-- Lab Report: 20%  
-- Final Examination: 40%  
+- Assignment/Project: 20%
+- Attendance & Participation: 20%
+- Lab Report: 20%
+- Final Examination: 40%
 - **Total:** 100%
 
 ## Consultation Hours

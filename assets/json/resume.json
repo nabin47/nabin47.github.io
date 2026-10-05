@@ -181,10 +181,7 @@
       "startDate": "2023",
       "endDate": "2025",
       "description": "FUSE-based filesystem to capture file entropy signals across 123 file types; first-author publication at Springer LNNS 2025.",
-      "highlights": [
-        "30 ransomware families and 93 benign file categories",
-        "ML classifiers achieving up to 96% detection accuracy"
-      ]
+      "highlights": ["30 ransomware families and 93 benign file categories", "ML classifiers achieving up to 96% detection accuracy"]
     },
     {
       "name": "Adversarial Phishing Detection Study",
@@ -201,10 +198,7 @@
       "startDate": "2023",
       "endDate": "2025",
       "description": "Two-stage CNN + Vision Transformer pipeline for spatial-temporal anomaly detection on the UCF-Crime dataset.",
-      "highlights": [
-        "98% binary and 95% multi-class accuracy",
-        "Keyframe extraction algorithm reduces per-video processing time to 20ms"
-      ]
+      "highlights": ["98% binary and 95% multi-class accuracy", "Keyframe extraction algorithm reduces per-video processing time to 20ms"]
     }
   ]
 }

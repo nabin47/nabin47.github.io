@@ -2,7 +2,7 @@
 layout: course
 title: Data Structures
 description: This course introduces fundamental data structures and algorithm analysis techniques essential for efficient problem solving. Topics include arrays, linked lists, stacks, queues, trees, graphs, hashing, sorting, and searching algorithms. Emphasis is placed on time and space efficiency, algorithm design, and comparative analysis of different data structure implementations.
-instructor: 
+instructor:
 year: 2025
 term: Fall
 location: Rooms 905, 621, 1023
@@ -72,26 +72,26 @@ This course is designed to equip students with a strong foundation in data struc
 
 By the end of this course, students will be able to:
 
-- Explain fundamental concepts and operations of data structures  
-- Apply appropriate data structures to solve real-world problems  
-- Analyze and compare algorithm performance based on time and space complexity  
+- Explain fundamental concepts and operations of data structures
+- Apply appropriate data structures to solve real-world problems
+- Analyze and compare algorithm performance based on time and space complexity
 
 ## Prerequisites
 
-- CSC 183: Programming in C  
-- Basic understanding of programming logic and problem solving  
+- CSC 183: Programming in C
+- Basic understanding of programming logic and problem solving
 
 ## Textbooks
 
-- Primary: *Data Structure* by Seymour Lipschutz (McGraw Hill, 2014)  
-- Reference:  
-  - *Introduction to Algorithms* by Cormen et al. (MIT Press, 2009)  
-  - *Algorithms* by Sedgewick and Wayne (Addison-Wesley, 2014)  
+- Primary: _Data Structure_ by Seymour Lipschutz (McGraw Hill, 2014)
+- Reference:
+  - _Introduction to Algorithms_ by Cormen et al. (MIT Press, 2009)
+  - _Algorithms_ by Sedgewick and Wayne (Addison-Wesley, 2014)
 
 ## Grading
 
-- Quizzes/Class Tests: 10%  
-- Mid-Term Exam: 25%  
-- Final Exam: 50%  
-- Attendance & Participation: 5%  
-- Assignments/Presentation: 10%  
+- Quizzes/Class Tests: 10%
+- Mid-Term Exam: 25%
+- Final Exam: 50%
+- Attendance & Participation: 5%
+- Assignments/Presentation: 10%
