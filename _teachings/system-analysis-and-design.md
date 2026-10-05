@@ -69,78 +69,80 @@ This course provides a comprehensive understanding of system analysis and design
 
 By the end of this course, students will be able to:
 
-- Understand different types of systems, roles, and development methodologies  
-- Apply system design strategies to solve real-world problems  
-- Analyze and design systems with proper specifications and quality considerations  
-- Work effectively both individually and in teams on system development  
-- Communicate system designs through reports and presentations  
+- Understand different types of systems, roles, and development methodologies
+- Apply system design strategies to solve real-world problems
+- Analyze and design systems with proper specifications and quality considerations
+- Work effectively both individually and in teams on system development
+- Communicate system designs through reports and presentations
 
 ## Prerequisites
 
-- CSC 103  
-- Basic understanding of programming and computing systems  
+- CSC 103
+- Basic understanding of programming and computing systems
 
 ## Textbooks
 
-- **Primary:** *System Analysis and Design* by Kendall & Kendall, 9th Edition, Pearson (2016)  
-- **Reference:** *System Analysis and Design* by Alan Dennis, Barbara Haley Wixom, Roberta M. Roth, 8th Edition, Wiley (2021)  
+- **Primary:** _System Analysis and Design_ by Kendall & Kendall, 9th Edition, Pearson (2016)
+- **Reference:** _System Analysis and Design_ by Alan Dennis, Barbara Haley Wixom, Roberta M. Roth, 8th Edition, Wiley (2021)
 
 ## Teaching & Learning Strategies
 
-- Lectures and multimedia presentations  
-- Class discussions and case studies  
-- Assignments and quizzes  
-- Group work and project-based learning  
-- Term project and presentations  
+- Lectures and multimedia presentations
+- Class discussions and case studies
+- Assignments and quizzes
+- Group work and project-based learning
+- Term project and presentations
 
 ## Grading
 
-- Mid-Term Exam: 25%  
-- Class Tests: 10%  
-- Final Exam: 50%  
-- Assignment/Project/Presentation: 10%  
-- Participation & Attendance: 5%  
+- Mid-Term Exam: 25%
+- Class Tests: 10%
+- Final Exam: 50%
+- Assignment/Project/Presentation: 10%
+- Participation & Attendance: 5%
 
 ## Grading Policy
 
-| Grade | Marks | Grade | Marks |
-|------|------|------|------|
-| A+ | 80–100 | C+ | 50–54 |
-| A | 75–79 | C | 45–49 |
-| A- | 70–74 | D | 40–44 |
-| B+ | 65–69 | F | < 40 |
-| B | 60–64 | W | Withdraw |
-| B- | 55–59 | I | Incomplete |
+| Grade | Marks  | Grade | Marks      |
+| ----- | ------ | ----- | ---------- |
+| A+    | 80–100 | C+    | 50–54      |
+| A     | 75–79  | C     | 45–49      |
+| A-    | 70–74  | D     | 40–44      |
+| B+    | 65–69  | F     | < 40       |
+| B     | 60–64  | W     | Withdraw   |
+| B-    | 55–59  | I     | Incomplete |
 
 ## Class Schedule
 
 ### Section L
-- Saturday: 03:20 – 04:20 PM (Room 1009)  
-- Sunday: 03:20 – 04:20 PM (Room 1003)  
-- Monday: 03:20 – 04:20 PM (Room 1023)  
+
+- Saturday: 03:20 – 04:20 PM (Room 1009)
+- Sunday: 03:20 – 04:20 PM (Room 1003)
+- Monday: 03:20 – 04:20 PM (Room 1023)
 
 ### Section O
-- Monday: 04:25 – 05:25 PM (Room 1007)  
-- Tuesday: 04:25 – 05:25 PM (Room 708)  
-- Wednesday: 04:25 – 05:25 PM (Room 708)  
+
+- Monday: 04:25 – 05:25 PM (Room 1007)
+- Tuesday: 04:25 – 05:25 PM (Room 708)
+- Wednesday: 04:25 – 05:25 PM (Room 708)
 
 ## Assessment Strategy
 
 ### Continuous Internal Evaluation (50%)
 
-- Mid-Term Exam: 25  
-- Class Test: 10  
-- Assignments/Projects: 10  
-- Participation: 5  
+- Mid-Term Exam: 25
+- Class Test: 10
+- Assignments/Projects: 10
+- Participation: 5
 
 ### Semester End Examination (50%)
 
-- Final Exam focusing mainly on understanding and application skills  
+- Final Exam focusing mainly on understanding and application skills
 
 ## Course Outcomes (COs)
 
-- **CO1:** Understand systems, roles, and development methodologies  
-- **CO2:** Apply system design strategies to solve problems  
-- **CO3:** Analyze and design systems with proper specifications  
-- **CO4:** Work individually and in teams effectively  
-- **CO5:** Communicate system designs through reports and presentations  
+- **CO1:** Understand systems, roles, and development methodologies
+- **CO2:** Apply system design strategies to solve problems
+- **CO3:** Analyze and design systems with proper specifications
+- **CO4:** Work individually and in teams effectively
+- **CO5:** Communicate system designs through reports and presentations

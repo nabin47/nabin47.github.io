@@ -139,6 +139,7 @@ schedule:
       - name: Review Notes
         url: /assets/pdf/review.pdf
 ---
+
 ## Course Overview
 
 This course provides a comprehensive introduction to Artificial Intelligence (AI) and Expert Systems. Students will:
@@ -158,13 +159,13 @@ This course provides a comprehensive introduction to Artificial Intelligence (AI
 
 ## Textbooks
 
-- Artificial Intelligence: A Modern Approach — Russell & Norvig  
-- Artificial Intelligence Illuminated — Ben Coppin  
+- Artificial Intelligence: A Modern Approach — Russell & Norvig
+- Artificial Intelligence Illuminated — Ben Coppin
 
 ## Grading
 
-- Mid-Term Exam: 25%  
-- Final Exam: 50%  
-- Class Test: 10%  
-- Assignment/Project/Presentation: 10%  
-- Participation/Attendance: 5%  
+- Mid-Term Exam: 25%
+- Final Exam: 50%
+- Class Test: 10%
+- Assignment/Project/Presentation: 10%
+- Participation/Attendance: 5%

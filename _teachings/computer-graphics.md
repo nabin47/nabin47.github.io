@@ -72,40 +72,40 @@ This course provides a comprehensive introduction to computer graphics, covering
 
 By the end of this course, students will be able to:
 
-- Explain fundamental concepts of computer graphics and display systems  
-- Apply algorithms for drawing primitives, transformations, and clipping  
-- Implement graphics programs using OpenGL and high-level languages  
-- Design simple animated graphical applications  
+- Explain fundamental concepts of computer graphics and display systems
+- Apply algorithms for drawing primitives, transformations, and clipping
+- Implement graphics programs using OpenGL and high-level languages
+- Design simple animated graphical applications
 
 ## Prerequisites
 
-- Programming in C++ (CSC 283)  
-- Numerical Analysis (MAT 247)  
+- Programming in C++ (CSC 283)
+- Numerical Analysis (MAT 247)
 
 ## Textbooks
 
-- **Primary:** *Computer Graphics (C Version)* by Donald Hearn and M. Pauline Baker  
-- **Reference:** *Fundamentals of Computer Graphics* by Peter Shirley and Steve Marschner  
+- **Primary:** _Computer Graphics (C Version)_ by Donald Hearn and M. Pauline Baker
+- **Reference:** _Fundamentals of Computer Graphics_ by Peter Shirley and Steve Marschner
 
 ## Teaching and Learning Methods
 
-- Lectures and interactive discussions  
-- Problem-solving sessions  
-- Programming demonstrations using OpenGL  
-- Group discussions and project-based learning  
+- Lectures and interactive discussions
+- Problem-solving sessions
+- Programming demonstrations using OpenGL
+- Group discussions and project-based learning
 
 ## Grading
 
-- Class Tests: 10%  
-- Midterm Exam: 25%  
-- Final Exam: 50%  
-- Assignment/Project/Presentation: 10%  
-- Attendance: 5%  
+- Class Tests: 10%
+- Midterm Exam: 25%
+- Final Exam: 50%
+- Assignment/Project/Presentation: 10%
+- Attendance: 5%
 
 ## Course Outcomes
 
 At the end of the course, students will be able to:
 
-- **CO1:** Explain key concepts of computer graphics  
-- **CO2:** Apply algorithms for drawing, transformation, and clipping  
-- **CO3:** Develop graphical and animated solutions using OpenGL  
+- **CO1:** Explain key concepts of computer graphics
+- **CO2:** Apply algorithms for drawing, transformation, and clipping
+- **CO3:** Develop graphical and animated solutions using OpenGL
