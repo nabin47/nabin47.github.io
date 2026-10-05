@@ -22,28 +22,29 @@ A selection of recent peer-reviewed publications is listed below:
     </li>
 
     <li>
-        Federated Deep Learning for Cybersecurity and Intrusion Detection in Decentralized Networks (IEEE ICAECA 2025)  
+        Federated Deep Learning for Cybersecurity and Intrusion Detection in Decentralized Networks (IEEE ICAECA 2025)
         <br>
         DOI: <a href="https://doi.org/10.1109/ICAECA63854.2025.11012607">10.1109/ICAECA63854.2025.11012607</a>
     </li>
 
     <li>
-        Two-Stage Vision Transformer-Based Framework for Anomaly Detection in Surveillance Videos (IEEE ECCE 2025)  
+        Two-Stage Vision Transformer-Based Framework for Anomaly Detection in Surveillance Videos (IEEE ECCE 2025)
         <br>
-        DOI: <a href="https://doi.org/10.1109/ECCE64574.2025.11013374">0.1109/ECCE64574.2025.11013374</a>
+        DOI: <a href="https://doi.org/10.1109/ECCE64574.2025.11013374">10.1109/ECCE64574.2025.11013374</a>
     </li>
 
     <li>
-        Temporal-Aware Feature Selection for Intrusion Detection Systems (IEEE GINOTECH 2025)  
+        Temporal-Aware Feature Selection for Intrusion Detection Systems (IEEE GINOTECH 2025)
         <br>
         DOI: <a href="https://doi.org/10.1109/GINOTECH63460.2025.11076711">10.1109/GINOTECH63460.2025.11076711</a>
     </li>
 
     <li>
-        Federated Machine Learning for Cardiovascular Risk Assessment (IEEE QPAIN 2025)  
+        Federated Machine Learning for Cardiovascular Risk Assessment (IEEE QPAIN 2025)
         <br>
         DOI: <a href="https://doi.org/10.1109/QPAIN66474.2025.11171956">10.1109/QPAIN66474.2025.11171956</a>
     </li>
+
 </ul>
 
 ---
