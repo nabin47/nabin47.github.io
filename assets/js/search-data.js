@@ -81,12 +81,7 @@ ninja.data = [{
             window.location.href = "/blog/2023/fuse-filesystem-installation-process/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-acceptance-iccit-2025",
+      },{id: "news-acceptance-iccit-2025",
           title: 'Acceptance – ICCIT 2025',
           description: "",
           section: "News",handler: () => {
@@ -111,51 +106,6 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_5/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{id: "teachings-artificial-intelligence-and-expert-systems",
           title: 'Artificial Intelligence and Expert Systems',
           description: "This course introduces the fundamental concepts, techniques, and applications of Artificial Intelligence (AI) with a strong emphasis on expert systems. Topics include intelligent agents, problem-solving and search, knowledge representation and reasoning, probabilistic reasoning, machine learning techniques (including neural networks), and uncertainty handling. Throughout the course, students will explore how each AI technique contributes to the design, reasoning, and decision-making capabilities of expert systems. Ethical, social, and practical implications of AI-based expert systems are also discussed.",
@@ -201,7 +151,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/assets/rendercv/rendercv_output/Jubair_Ahmed_Nabin_CV.pdf", "_blank");
         },
       },{
         id: 'social-email',
