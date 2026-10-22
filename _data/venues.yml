@@ -1,4 +1,18 @@
-# Venue badges used on the publications page (matched by the `abbr` field in papers.bib).
-# "ABBR":
-#   url: https://example.com
-#   color: "#00369f"
+# Venue badges on the publications page, matched by the `abbr` field in papers.bib.
+# Optional keys: url (makes the badge a link) and color (badge background).
+"ICCIT":
+  color: "#00629B"
+"QPAIN":
+  color: "#00629B"
+"ICAECA":
+  color: "#00629B"
+"GINOTECH":
+  color: "#00629B"
+"ECCE":
+  color: "#00629B"
+"ICMI":
+  color: "#00629B"
+"PECCII":
+  color: "#00629B"
+"MIET":
+  color: "#C4122F"
