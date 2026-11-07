@@ -41,7 +41,7 @@ ninja.data = [{
         
           title: "What Attention Actually Needs: From Logistic Regression to RoPE",
         
-        description: "",
+        description: "Attention isn&#39;t a universal power-up you can bolt onto any model — it only makes sense when there are parts to weigh against each other. Tracing that idea forward explains why transformers needed positional encoding, and why modern LLMs have largely moved to RoPE instead.",
         section: "Posts",
         handler: () => {
           
@@ -52,7 +52,7 @@ ninja.data = [{
         
           title: "From RNNs to Transformers: Why Attention Actually Works",
         
-        description: "",
+        description: "A first-principles walkthrough of why transformers replaced RNNs — from the vanishing-context problem, through self-attention and cross-attention, to why multiple attention heads learn different jobs without ever being told to.",
         section: "Posts",
         handler: () => {
           
@@ -63,7 +63,7 @@ ninja.data = [{
         
           title: "Travelling Salesperson HackerRank Solution with Algorithm",
         
-        description: "",
+        description: "A recursive backtracking solution in C++ to the HackerRank Travelling Salesperson problem, finding the cheapest tour that starts at city 0, visits every city once and returns.",
         section: "Posts",
         handler: () => {
           
@@ -74,7 +74,7 @@ ninja.data = [{
         
           title: "How-Tos of Installing and Mounting a FUSE-based Filesystem",
         
-        description: "",
+        description: "How to install FUSE and fusepy, then mount a Python-based FUSE filesystem on Ubuntu 22.04 without writing kernel code.",
         section: "Posts",
         handler: () => {
           
