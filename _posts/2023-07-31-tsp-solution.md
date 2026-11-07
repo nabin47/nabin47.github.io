@@ -2,7 +2,7 @@
 layout: post
 title: Travelling Salesperson HackerRank Solution with Algorithm
 date: 2023-07-31 16:40:16
-description:
+description: A recursive backtracking solution in C++ to the HackerRank Travelling Salesperson problem, finding the cheapest tour that starts at city 0, visits every city once and returns.
 tags: data-structures algorithms
 categories: problem-solving
 ---

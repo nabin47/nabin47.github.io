@@ -2,7 +2,7 @@
 layout: post
 title: How-Tos of Installing and Mounting a FUSE-based Filesystem
 date: 2023-07-20 16:40:16
-description:
+description: How to install FUSE and fusepy, then mount a Python-based FUSE filesystem on Ubuntu 22.04 without writing kernel code.
 tags: fuse-filesystem how-to-guide
 categories: guides
 ---
