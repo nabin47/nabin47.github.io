@@ -4,7 +4,7 @@ title: "What Attention Actually Needs: From Logistic Regression to RoPE"
 date: 2026-07-17
 categories: [machine-learning, deep-learning]
 tags: [attention, transformers, positional-encoding, rope, self-attention]
-excerpt: "Attention isn't a universal power-up you can bolt onto any model — it only makes sense when there are parts to weigh against each other. Tracing that idea forward explains why transformers needed positional encoding, and why modern LLMs have largely moved to RoPE instead."
+description: "Attention isn't a universal power-up you can bolt onto any model — it only makes sense when there are parts to weigh against each other. Tracing that idea forward explains why transformers needed positional encoding, and why modern LLMs have largely moved to RoPE instead."
 ---
 
 ## Introduction

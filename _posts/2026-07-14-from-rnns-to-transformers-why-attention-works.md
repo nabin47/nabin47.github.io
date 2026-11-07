@@ -4,7 +4,7 @@ title: "From RNNs to Transformers: Why Attention Actually Works"
 date: 2026-07-14
 categories: [machine-learning, deep-learning]
 tags: [transformers, attention-mechanism, self-attention, cross-attention, multi-head-attention, rnn]
-excerpt: "A first-principles walkthrough of why transformers replaced RNNs — from the vanishing-context problem, through self-attention and cross-attention, to why multiple attention heads learn different jobs without ever being told to."
+description: "A first-principles walkthrough of why transformers replaced RNNs — from the vanishing-context problem, through self-attention and cross-attention, to why multiple attention heads learn different jobs without ever being told to."
 ---
 
 # From RNNs to Transformers: Why Attention Actually Works
